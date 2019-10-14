@@ -21,22 +21,32 @@ Dane wniosków są weryfikowane poprzez kontakt z systemem PESEL.
 
 ## Wymagania funkcjonalne
 
-### Pracownicy
+### Zarządzanie pracownikami
 1. Pracownik może zalogować się na swoje konto i z niego się wylogować.
 
-### Zarządanie wnioskami meldunkowymi i meldunkami
+### Zarządanie wnioskami meldunkowymi
 
-1. Pracownik może zobaczyć dane wniosków i meldunków.
+1. Pracownik może wyświetlić dane wniosków.
+   1. Pracownik może wyświetlić wnioski tylko danego typu.
+   2. Pracownik może wyszukać wniosek podając nr. PESEL.
 2. Pracownik może wprowadzić wniosek meldunkowy.
-3. Można wprowadzić wniosek o typie stały lub czasowy.
-4. Pracownik może zmienić status wniosku - zaakceptować, lub odrzucić po podaniu powodu.
-5. Zaakceptowany wniosek zmienia się w rekord meldunku.
-6. Wniosek, by być możliwym do zaakceptowania, musi zawierać komplet danych, które zgadzają się z danymi z systemu PESEL.
-7. Pracownik może edytować dane wniosków i meldunków.
+   1. Pracownik może wprowadzić wniosek o typie _stały_ lub _czasowy_.
+3. Pracownik może edytować dane wniosku meldunkowego.
+   1. Pracownik może zmienić status wniosku - zaakceptować, lub odrzucić po podaniu powodu.
+   2. Zaakceptowany wniosek zmienia się w rekord meldunku.
+4. Wniosek, by być możliwym do zaakceptowania, musi zawierać komplet danych, które zgadzają się z danymi z systemu PESEL.
+
+### Zarządzanie meldunkami
+
+1. Pracownik może wyświetlić dane meldunków.
+   1. Pracownik może wyświetlić dane meldunków tylko danego typu.
+   2. Pracownik może wyszukać dane meldunku podając nr. PESEL.
+3. Pracownik może edytować dane meldunków.
+   1. Pracownik może zmienić status meldunku na przeszły.
 
 ## Wymagania niefunkcjonalne
 
-1. Wszyscy użytkownicy, którzy mają dostęp do aplikacji - posiadają indywidualne konto, mają równoważne uprawnienia.
-2. System rejestruje ostatniego autora zmian danych.
-3. Dane transmitowane pomiędzy aplikacją, a interfejsem użytkowanika są szyfrowane.
+1. Wszyscy użytkownicy, którzy mają dostęp do aplikacji (posiadają indywidualne konto) mają równoważne uprawnienia.
+2. System rejestruje historię wszystkich zmian danych.
+3. Dane transmitowane pomiędzy aplikacją, a systemem PESEL są szyfrowane.
 4. W przypadku braku łączności z systemem PESEL pracownik otrzymuje ostrzeżenie o tym fakcie.
