@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.13)  14 OCT 2019 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.13)  15 OCT 2019 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,28 +636,74 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 709.61174pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=557.38951pt
+* \textheight=709.61174pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 114.
+
+<./../paragidm/export/PopulationRegistry_req.jpg, id=86, 962.59625pt x 1333.98375pt>
+File: ./../paragidm/export/PopulationRegistry_req.jpg Graphic file (type jpg)
+<use ./../paragidm/export/PopulationRegistry_req.jpg>
+Package pdftex.def Info: ./../paragidm/export/PopulationRegistry_req.jpg  used on input line 120.
+(pdftex.def)             Requested size: 512.06834pt x 709.63382pt.
+
+LaTeX Warning: Float too large for page by 31.77206pt on input line 123.
+
+[4 <./../paragidm/export/PopulationRegistry_req.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
  (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `Sprawozdanie_1.out' has not changed.
 (rerunfilecheck)             Checksum: E91ADD5B267BAEAAF31C8CC014E3732C;486.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 19298 strings out of 494526
- 356848 string characters out of 6176577
- 459055 words of memory out of 5000000
- 22622 multiletter control sequences out of 15000+600000
+ 19320 strings out of 494526
+ 357249 string characters out of 6176577
+ 460102 words of memory out of 5000000
+ 22632 multiletter control sequences out of 15000+600000
  11751 words of font info for 27 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 64i,5n,60p,470b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,6n,60p,470b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc2488.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.pdf (3 pages, 73055 bytes).
+Output written on /home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.pdf (4 pages, 740439 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

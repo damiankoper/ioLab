@@ -22,7 +22,7 @@
 
 \begin{flushright}
         Damian Koper, \textbf{241292} \\
-        Łukasz Handschuh, \textbf{123456}
+        Łukasz Handschuh, \textbf{241402}
 \end{flushright}
 \vspace{1cm}
 {
@@ -44,7 +44,7 @@ Wniosek meldunkowy zawiera dane takie jak:
     \item Dane adresowe nowego miejsca pobytu
     \item Dane adresowe dotychczasowego miejsca pobytu
     \item Zgody i oświadczenia
-    \item Dane identyfikujące wniosek
+    \item Dane identyfikujące wniosek (nr. wniosku)
 \end{itemize}
 
 Osoba składające wniosek nie ma dostępu do systemu. Wniosek dostarczyć można jedynie drogą papierową, osobiście, lub pocztą. Dalej wniosek przetwarzany jest przez pracowników urzędu.
@@ -62,6 +62,12 @@ Dane wniosków są weryfikowane poprzez kontakt z systemem PESEL.
 \subsection{Pracownicy}
 \begin{enumerate}
     \item Pracownik może zalogować się na swoje konto i z niego się wylogować.
+    \item Pracownik z rolą administratora może zarządzać kontami użytkowników.
+    \begin{enumerate}
+        \item Administrator może stworzyć konto użytkownika.
+        \item Administrator może edytować dane i jego rolę użytkownika.
+        \item Administrator może usunąć konto użytkownika.
+    \end{enumerate}
 \end{enumerate}
 \subsection{Zarządzanie wnioskami}
 \begin{enumerate}
@@ -95,9 +101,25 @@ Dane wniosków są weryfikowane poprzez kontakt z systemem PESEL.
 \end{enumerate}
 \section{Wymagania niefunkcjonalne}
 \begin{enumerate}
-    \item Wszyscy użytkownicy, którzy mają dostęp do aplikacji (posiadają indywidualne konto) mają równoważne uprawnienia.
-    \item System rejestruje historię wszystkich zmian danych.
-    \item Dane transmitowane pomiędzy aplikacją, a systemem PESEL są szyfrowane.
+    \item Wszyscy użytkownicy, którzy mają dostęp do aplikacji (posiadają indywidualne konto) mają uprawnienia do edycji danych meldunkowych.
+    \item Rola administratora pozwala na zarządzanie użytkownikami i ich uprawnieniami.
+    \item System rejestruje historię wszystkich zmian danych meldunkowych.
+    \item Dane przesyłane pomiędzy aplikacją, a systemem PESEL są szyfrowane.
     \item W przypadku braku łączności z systemem PESEL pracownik otrzymuje ostrzeżenie o tym fakcie.
+    \item Podstawowym źródłem dostępu do danych jest aplikacja internetowa.
+    \item Aplikacja umożliwia dostęp do danych przez podstawowy interface konsoli.
 \end{enumerate}
+\newpage
+\newgeometry{top=1cm,left=1cm,bottom=2cm,right=1cm}
+\begin{figure}[]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-0\baselineskip
+    ]{./../paragidm/export/PopulationRegistry_req.jpg}
+    \caption{Diagram wymagań}
+    \label{}
+\end{figure}
+\restoregeometry
 \end{document}
