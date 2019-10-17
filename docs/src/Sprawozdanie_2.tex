@@ -17,6 +17,7 @@
 \newgeometry{lmargin=2cm, rmargin=2cm, tmargin=2cm, bmargin=2cm}
 \usepackage{tikz}
 \usepackage[bf]{caption}
+\input{common/commands.tex}
 
 \begin{document}
 
@@ -27,36 +28,14 @@
 \vspace{1cm}
 {
     \centering
-    {\Huge\scshape\bfseries Inżynieria oprogramowania - Etap 1 }\\
+    {\Huge\scshape\bfseries Inżynieria oprogramowania - Etap 2 }\\
     \vspace{0.25cm}
     \Large\textbf{Dział ewidencji ludności} \\
     \vspace{0.25cm}
-    \large Wykonanie opisu biznesowego „świata rzeczywistego” projektowanego oprogramowania. Definicja wymagań funkcjonalnych i niefunkcjonalnych.\\
+    \large Specyfikacja wymagań funkcjonalnych za pomocą diagramu
+    przypadków użycia.\\
 }
 
-\section{Opis zasobów ludzkich}
-
-Pracownik urzędu gminy może wprowadzić informacje dotyczące zameldowania mieszkańca. Meldunek może być wprowadzony jako meldunek stały, czasowy, przeszły. Pracownik wprowadza wiosek dostarczony przez ubiegajacego się o meldunek mieszkańca do systemu. Pracownik może zatwierdzić lub odrzucić wniosek. Zatwierdzenie prowadzi do faktycznego zarejestrowania meldunku w systemie.
-
-Wniosek meldunkowy zawiera dane takie jak:
-\begin{itemize}
-    \item Dane osobowe mieszkańca
-    \item Dane adresowe nowego miejsca pobytu
-    \item Dane adresowe dotychczasowego miejsca pobytu
-    \item Zgody i oświadczenia
-    \item Dane identyfikujące wniosek (nr. wniosku)
-\end{itemize}
-
-Osoba składające wniosek nie ma dostępu do systemu. Wniosek dostarczyć można jedynie drogą papierową, osobiście, lub pocztą. Dalej wniosek przetwarzany jest przez pracowników urzędu.
-
-\section{Przepisy, strategia firmy}
-
-Pracownik jest odpowiedzialny za poprawne wprowadzenie wniosku oraz odpowiada materialnie za niezdogność danych. System jest dostępny tylko dla pracowników urzędu i powinien zapewniać maksymalną prostotę i dostępność na wielu platformach.
-
-\section{Dane techniczne}
-Wgląd do dostępnych danych i ich edycja jest możliwa za pośrednictwem strony internetowej ze względu na dużą dostępność na wszystkich platformach i w wielu miejscach bez potrzeby instalacji. Wszyscy pracownicy mają równożędne uprawnienia. Transmisja danych jest szyfrowana.
-
-Dane wniosków są weryfikowane poprzez kontakt z systemem PESEL.
 \section{Wymagania funkcjonalne}
 
 \subsection{Pracownicy}
@@ -110,16 +89,22 @@ Dane wniosków są weryfikowane poprzez kontakt z systemem PESEL.
     \item Aplikacja umożliwia dostęp do danych przez podstawowy interface konsoli.
 \end{enumerate}
 \newpage
-\newgeometry{top=1cm,left=1cm,bottom=2cm,right=1cm}
-\begin{figure}[]
-    \centering
-    \includegraphics[
-        keepaspectratio,
-        width=\linewidth,
-        height=\dimexpr\textheight-0\baselineskip
-    ]{./../paragidm/export/PopulationRegistry_req.jpg}
-    \caption{Diagram wymagań}
-    \label{}
-\end{figure}
-\restoregeometry
+\section{Diagram przypadków użycia}
+
+\section{Scenariusze przypadków użycia}
+
+\scenario
+    {xd}
+    {xdd}
+    {xddd}
+    {xdddd}
+    {
+        \begin{enumerate}
+            \setlength\itemsep{0.1em}
+            \item jkjasadksad
+            \item nknaasdnklasd
+            \item asknksad
+        \end{enumerate}
+    }
+
 \end{document}

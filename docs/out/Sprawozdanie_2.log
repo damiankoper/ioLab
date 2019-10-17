@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.14)  17 OCT 2019 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.14)  17 OCT 2019 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/damian_koper/Documents/GitHub/ioLab/docs/src/Sprawozdanie_1.tex
-(/home/damian_koper/Documents/GitHub/ioLab/docs/src/Sprawozdanie_1.tex
+**/home/damian_koper/Documents/GitHub/ioLab/docs/src/Sprawozdanie_2.tex
+(/home/damian_koper/Documents/GitHub/ioLab/docs/src/Sprawozdanie_2.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -529,23 +529,23 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@ContinuedFloat=\count140
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.aux)
-\openout1 = `Sprawozdanie_1.aux'.
+) (./common/commands.tex) (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.aux)
+\openout1 = `Sprawozdanie_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -582,7 +582,7 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -590,12 +590,12 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count141
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
- (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.out) (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.out)
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
+ (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.out) (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.out)
 \@outlinefile=\write4
-\openout4 = `Sprawozdanie_1.out'.
+\openout4 = `Sprawozdanie_2.out'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -622,88 +622,36 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-No file Sprawozdanie_1.toc.
+No file Sprawozdanie_2.toc.
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 709.61174pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=557.38951pt
-* \textheight=709.61174pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-80.81725pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 114.
-
-<./../paragidm/export/PopulationRegistry_req.jpg, id=86, 962.59625pt x 1333.98375pt>
-File: ./../paragidm/export/PopulationRegistry_req.jpg Graphic file (type jpg)
-<use ./../paragidm/export/PopulationRegistry_req.jpg>
-Package pdftex.def Info: ./../paragidm/export/PopulationRegistry_req.jpg  used on input line 120.
-(pdftex.def)             Requested size: 512.06834pt x 709.63382pt.
-
-LaTeX Warning: Float too large for page by 31.77206pt on input line 123.
-
-[4 <./../paragidm/export/PopulationRegistry_req.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
- (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
-Package rerunfilecheck Info: File `Sprawozdanie_1.out' has not changed.
-(rerunfilecheck)             Checksum: 169D3875318B5B0E781DB2D240209201;486.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+ (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package rerunfilecheck Info: File `Sprawozdanie_2.out' has not changed.
+(rerunfilecheck)             Checksum: 90AF934B2B983E7A53966404EBBC2E4A;498.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 19320 strings out of 494526
- 357249 string characters out of 6176577
- 460102 words of memory out of 5000000
- 22632 multiletter control sequences out of 15000+600000
- 11751 words of font info for 27 fonts, out of 8000000 for 9000
+ 19294 strings out of 494526
+ 356672 string characters out of 6176577
+ 459163 words of memory out of 5000000
+ 22607 multiletter control sequences out of 15000+600000
+ 11494 words of font info for 26 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 64i,6n,60p,470b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc2488.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_1.pdf (4 pages, 740430 bytes).
+ 64i,5n,60p,470b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc2488.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk>
+Output written on /home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.pdf (3 pages, 67095 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
