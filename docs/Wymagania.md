@@ -7,7 +7,7 @@ Wniosek meldunkowy zawiera dane takie jak:
 * Dane adresowe nowego miejsca pobytu
 * Dane adresowe dotychczasowego miejsca pobytu
 * Zgody i oświadczenia
-* Dane identyfikujące wniosek
+* Dane identyfikujące wniosekblabla
 
 Osoba składające wniosek nie ma dostępu do systemu. Wniosek dostarczyć można jedynie drogą papierową, osobiście, lub pocztą. Dalej wniosek przetwarzany jest przez pracowników urzędu.
 
