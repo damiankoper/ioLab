@@ -94,14 +94,69 @@
 \section{Scenariusze przypadków użycia}
 
 \scenario
-    {xd}
-    {xdd}
-    {xddd}
-    {xdddd}
+    {Stworzenie konta pracownika}
+    {Stworzenie nowego konta pracownika.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Dodanie nowego konta o unikatowym nr ID i danych osobowych pracownika, lub komunikat o błędzie.}
     {
-        \item jkjasadksad
-        \item nknaasdnklasd
-        \item asknksad
+        \item Należy podać dane osobowe pracownika.
+        \item Jeśli podane dane są poprawne, można utworzyć konto z nowym nr ID, w przeciwnym razie administrator jest informowany o błędzie.
+    }
+\scenario
+    {Edycja konta pracownika}
+    {Zmiana danych, lub uprawnień pracownika.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Wprowadzenie zmian danych osobowych oraz uprawnień pracownika, lub komunikat o błędzie.}
+    {
+        \item Należy podać nowe dane oraz uprawnienia pracownika.
+        \item Jeśli podane dane są poprawne, zostaną zmienione w systemie, w przeciwnym razie administrator jest informowany o błędzie.
+    }
+\scenario
+    {Zalogowanie}
+    {Zalogowanie się na konto.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Użytkownik jest zalogowany w systemie, lub komunikat o błędzie.}
+    {
+        \item Należy podać nazwę użytkownika i hasło.
+        \item Jeśli podana nazwa użytkownika i hasło są prawidłowe, następuje zalogowanie do systemu, w przeciwnym razie użytkownika jest informowany o błędzie podczas logowania.
+    }
+\scenario
+    {Wylogowanie}
+    {Wylogawanie się z konta.}
+    {Użytkownik jest zalogowany w systemie. }
+    {Użytkownik jest wylogowany z systemu.}
+    {
+        \item Należy nacisnąć przycisk wyloguj.
+        \item Następuje wylogowanie z systemu.
+    }
+\scenario
+    {Dodanie wniosku}
+    {Wstawienie nowego rekordu dotyczącego wniosku meldunkowego.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Nowy wniosek meldunkowy jest dodany do bazy, lub komunikat o błędzie.}
+    {
+        \item Należy wprowadzić dane osobowe oraz dane adresowe
+        \item Należy wywołać \textit{Sprawdzanie poprawności danych}, które odbędzie się w systemie PESEL.
+        \item Jeśli dane okażą się prawidłowe wniosek jest dodawany do bazy, w przeciwnym razie użytkownik jest informowany o błędzie.
+    }
+\scenario
+    {Edycja danych wniosku}
+    {Zmiana danych dotyczących wniosku}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Dane wniosku są zaktualizowane, lub komunikat o błędzie.}
+    {
+        \item Należy wprowadzić nowe dane osobowe oraz nowe dane meldunkowe.
+        \item Należy wywołać \textit{Sprawdzanie poprawności danych}, które odbędzie się w systemie PESEL.
+        \item Jeśli nowe dane okażą się prawidłowe wniosek jest aktualizowany, w przeciwnym razie użytkownik jest informowany o błędzie.
+    }
+\scenario
+    {Wyświetlanie wniosków}
+    {Wyświetlenie wymaganych wniosków.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Pożądane przez użytkownika wnioski są wyświetlone.}
+    {
+        \item Należy wybrać wyświetlanie wniosków.
+        \item Wszystkie wnioski przyporządkowane do danego urzędu zostają wyświetlone.
     }
 
 \end{document}

@@ -5,4 +5,10 @@
 \BOOKMARK [1][-]{section.2}{Wymagania niefunkcjonalne}{}% 5
 \BOOKMARK [1][-]{section.3}{Diagram przypadk\363w uzycia}{}% 6
 \BOOKMARK [1][-]{section.4}{Scenariusze przypadk\363w uzycia}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{xd}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Stworzenie konta pracownika}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Edycja konta pracownika}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Zalogowanie}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.4}{Wylogowanie}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.5}{Dodanie wniosku}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.6}{Edycja danych wniosku}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.7}{Wyswietlanie wniosk\363w}{section.4}% 14
