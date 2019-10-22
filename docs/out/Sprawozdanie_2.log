@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.14)  17 OCT 2019 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.14)  22 OCT 2019 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -630,25 +630,25 @@ Package caption Info: End \AtBeginDocument code.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  (/home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `Sprawozdanie_2.out' has not changed.
 (rerunfilecheck)             Checksum: 90AF934B2B983E7A53966404EBBC2E4A;498.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
  19294 strings out of 494526
  356672 string characters out of 6176577
- 459163 words of memory out of 5000000
+ 459196 words of memory out of 5000000
  22607 multiletter control sequences out of 15000+600000
  11494 words of font info for 26 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  64i,5n,60p,470b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc2488.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/damian_koper/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk>
-Output written on /home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.pdf (3 pages, 67095 bytes).
+Output written on /home/damian_koper/Documents/GitHub/ioLab/docs/src/../out/Sprawozdanie_2.pdf (3 pages, 67111 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams
