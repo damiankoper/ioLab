@@ -3,12 +3,13 @@
 \BOOKMARK [2][-]{subsection.1.2}{Zarzadzanie wnioskami}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.3}{Zarzadzanie meldunkami}{section.1}% 4
 \BOOKMARK [1][-]{section.2}{Wymagania niefunkcjonalne}{}% 5
-\BOOKMARK [1][-]{section.3}{Diagram przypadk\363w uzycia}{}% 6
-\BOOKMARK [1][-]{section.4}{Scenariusze przypadk\363w uzycia}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Stworzenie konta pracownika}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Edycja konta pracownika}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Zalogowanie}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.4}{Wylogowanie}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.5}{Dodanie wniosku}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.6}{Edycja danych wniosku}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.7}{Wyswietlanie wniosk\363w}{section.4}% 14
+\BOOKMARK [1][-]{section.3}{Aktorzy}{}% 6
+\BOOKMARK [1][-]{section.4}{Diagram przypadk\363w uzycia}{}% 7
+\BOOKMARK [1][-]{section.5}{Scenariusze przypadk\363w uzycia}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Stworzenie konta pracownika}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Edycja konta pracownika}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.3}{Zalogowanie}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.4}{Wylogowanie}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.5}{Dodanie wniosku}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.6}{Edycja danych wniosku}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.7}{Wyswietlanie wniosk\363w}{section.5}% 15

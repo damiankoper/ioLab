@@ -92,21 +92,60 @@
 
 \section{Aktorzy}
 
-\begin{figure}[h]
+\begin{figure}[!h]
     \centering
-    \begin{tabular}{|c|c|c|}
+    \begin{tabular}{|r|p{5cm}|p{9cm}|}
         \hline
         \textbf{Aktor} & \textbf{Opis} & \textbf{Przypadki użycia} \\
         \hline
-        Administrator & b & c \\
+        Administrator & 
+        Administrator, poza zwykłymi uprawnieniami, ma możliwość zarządzania kontami pracowników.
+        & 
+        \begin{itemize}
+            \setlength\itemsep{-0.5em}
+            \item Wszystkie przypadki użycia zdefiniowane dla Pracownika.
+            \item PU \nameref{Stworzenie konta pracownika}
+            \item PU \nameref{Edycja konta pracownika}
+            \item PU \nameref{Usunięcie konta pracownika}
+        \end{itemize}
+        \\
         \hline
-        Pracownik & b & c \\
+        Pracownik & 
+        Pracownik może obsługiwać process dodawania i przetwarzania wniosków meldunkowych, oraz zarządzać istniejącymi meldunkami.
+        & 
+        \begin{itemize}
+            \setlength\itemsep{-0.5em}
+            \item PU \nameref{Zalogowanie}
+            \item PU \nameref{Wylogowanie}
+            \item PU \nameref{Dodanie wniosku} powiącany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
+            \item PU \nameref{Edycja danych wniosku} powiącany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
+            \item PU \nameref{Zmiana statusu wniosku} powiącany przez \textit{<<extend>>} z PU \nameref{Edycja danych wniosku}
+            \item PU \nameref{Wyświetlanie wniosków}
+            \item PU \nameref{Zmiana kryterium wyświetlania wniosków} powiącany przez \textit{<<extend>>} z PU \nameref{Wyświetlanie wniosków}
+            \item PU \nameref{Dodanie meldunku} powiącany przez \textit{<<extend>>} z PU \nameref{Zmiana statusu wniosku}
+            \item PU \nameref{Wyświetlanie meldunków}
+            \item PU \nameref{Zmiana kryterium wyświetlania meldunków} powiącany przez \textit{<<extend>>} z PU \nameref{Wyświetlanie meldunków}
+            \item PU \nameref{Edycja danych meldunku} powiącany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
+
+        \end{itemize}
+        \\
         \hline
     \end{tabular}
-    \caption{Opis aktorów wraz z przypisanymi przypadkami użycia}
+    \caption{Opis aktorów wraz z przypisanymi przypadkami użycia.}
 \end{figure}
 
+\newpage
 \section{Diagram przypadków użycia}
+\begin{figure}[h]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/PopulationRegistry_UC.jpg}
+    \caption{Diagram przypadków użycia}
+    \label{}
+\end{figure}
 
 \section{Scenariusze przypadków użycia}
 
