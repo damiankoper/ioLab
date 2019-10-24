@@ -17,6 +17,7 @@
 \newgeometry{lmargin=2cm, rmargin=2cm, tmargin=2cm, bmargin=2cm}
 \usepackage{tikz}
 \usepackage[bf]{caption}
+\usepackage{setspace}
 \input{common/commands.tex}
 
 \begin{document}
@@ -94,15 +95,14 @@
 
 \begin{figure}[!h]
     \centering
-    \begin{tabular}{|r|p{5cm}|p{9cm}|}
+    \begin{tabular}{|r|p{4cm}|p{10cm}|}
         \hline
         \textbf{Aktor} & \textbf{Opis} & \textbf{Przypadki użycia} \\
         \hline
         Administrator & 
         Administrator, poza zwykłymi uprawnieniami, ma możliwość zarządzania kontami pracowników.
         & 
-        \begin{itemize}
-            \setlength\itemsep{-0.5em}
+        \begin{itemize}[noitemsep]
             \item Wszystkie przypadki użycia zdefiniowane dla Pracownika.
             \item PU \nameref{Stworzenie konta pracownika}
             \item PU \nameref{Edycja konta pracownika}
@@ -113,8 +113,7 @@
         Pracownik & 
         Pracownik może obsługiwać process dodawania i przetwarzania wniosków meldunkowych, oraz zarządzać istniejącymi meldunkami.
         & 
-        \begin{itemize}
-            \setlength\itemsep{-0.5em}
+        \begin{itemize}[noitemsep]
             \item PU \nameref{Zalogowanie}
             \item PU \nameref{Wylogowanie}
             \item PU \nameref{Dodanie wniosku} powiącany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
