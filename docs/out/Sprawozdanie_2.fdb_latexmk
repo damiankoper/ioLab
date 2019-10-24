@@ -1,15 +1,15 @@
 # Fdb version 3
-["pdflatex"] 1571912338 "c:/Users/kukik/Desktop/ioLab/docs/src/Sprawozdanie_2.tex" "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.pdf" "Sprawozdanie_2" 1571912340
+["pdflatex"] 1571913350 "c:/Users/kukik/Desktop/ioLab/docs/src/Sprawozdanie_2.tex" "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.pdf" "Sprawozdanie_2" 1571913352
   "../out/./../paragidm/export/PopulationRegistry_UC.jpg" 1571912327 206018 b761f183fbad988585d25351cb48a3a8 ""
-  "../out/Sprawozdanie_2.aux" 1571912340 5457 8c3d946b634101fd5520473253bcf786 "pdflatex"
-  "../out/Sprawozdanie_2.out" 1571912340 1519 069daf0ab468a2a139c73307c90ec4a0 "pdflatex"
+  "../out/Sprawozdanie_2.aux" 1571913352 5704 bd855fc9fcde711eb573849dacae3b73 "pdflatex"
+  "../out/Sprawozdanie_2.out" 1571913352 1600 c13fa223fe0db657698f68c2ec044445 "pdflatex"
   "../out/Sprawozdanie_2.toc" 0 -1 0 ""
   "../paragidm/export/PopulationRegistry_UC.jpg" 1571912327 206018 b761f183fbad988585d25351cb48a3a8 ""
-  "Sprawozdanie_2.tex" 1571912327 12655 6a7a850db4c889987991a2b68e286659 ""
+  "Sprawozdanie_2.tex" 1571913349 13097 5387b93da5f02e9a2cde110415f12b7c ""
   "Sprawozdanie_2.toc" 0 -1 0 ""
-  "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.aux" 1571912340 5457 8c3d946b634101fd5520473253bcf786 ""
+  "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.aux" 1571913352 5704 bd855fc9fcde711eb573849dacae3b73 ""
   "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.toc" 0 -1 0 ""
-  "c:/Users/kukik/Desktop/ioLab/docs/src/Sprawozdanie_2.tex" 1571912327 12655 6a7a850db4c889987991a2b68e286659 ""
+  "c:/Users/kukik/Desktop/ioLab/docs/src/Sprawozdanie_2.tex" 1571913349 13097 5387b93da5f02e9a2cde110415f12b7c ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1571654637 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1571656329 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1571655683 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -162,9 +162,9 @@
   "c:/texlive/2019/texmf.cnf" 1571662767 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "common/commands.tex" 1571912327 296 8a043787c077b40ea5dd1e1f6a137391 ""
   (generated)
+  "../out/Sprawozdanie_2.aux"
   "../out/Sprawozdanie_2.out"
   "../out/Sprawozdanie_2.pdf"
   "../out/Sprawozdanie_2.log"
-  "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.pdf"
-  "../out/Sprawozdanie_2.aux"
   "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.log"
+  "c:/Users/kukik/Desktop/ioLab/docs/src/../out/Sprawozdanie_2.pdf"

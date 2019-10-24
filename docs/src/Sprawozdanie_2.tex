@@ -160,13 +160,13 @@
     }
 \scenario
     {Usunięcie konta pracownika}
-    {Usunięcie konta pracownika}
-    {Inicjalizacja przez uruchomienie programu}
-    {Usunięcie wybranego konta pracownika}
+    {Usunięcie konta pracownika.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Usunięcie wybranego konta pracownika.}
     {
-        \item Należy podać dane osobowe powiązane z kontem pracownika
-        \item Jeśli odnalezione zostanie konto administrator jest pytany o zatwierdzenie akcji
-        \item Konto jest usuwane, lub akcja zostaje anulowana
+        \item Należy podać dane osobowe powiązane z kontem pracownika.
+        \item Jeśli odnalezione zostanie konto administrator jest pytany o zatwierdzenie akcji.
+        \item Konto jest usuwane, lub akcja zostaje anulowana.
     }
 \scenario
     {Edycja konta pracownika}
@@ -181,10 +181,10 @@
     {Zalogowanie}
     {Zalogowanie się na konto.}
     {Inicjalizacja przez uruchomienie programu.}
-    {Użytkownik jest zalogowany w systemie, lub wyświetlenie komunikatu o błędzie.}
+    {Zalogowanie użytkownika do systemie, lub wyświetlenie komunikatu o błędzie.}
     {
         \item Należy podać nazwę użytkownika i hasło.
-        \item Jeśli podana nazwa użytkownika i hasło są prawidłowe, następuje zalogowanie do systemu, w przeciwnym razie użytkownika jest informowany o błędzie podczas logowania.
+        \item Jeśli podana nazwa użytkownika i hasło są prawidłowe, następuje zalogowanie do systemu, w przeciwnym razie użytkownik jest informowany o błędzie podczas logowania.
     }
 \scenario
     {Wylogowanie}
@@ -199,7 +199,7 @@
     {Dodanie wniosku}
     {Wstawienie nowego rekordu dotyczącego wniosku meldunkowego.}
     {Inicjalizacja przez uruchomienie programu.}
-    {Nowy wniosek meldunkowy jest dodany do bazy, lub wyświetlenie komunikatu o błędzie.}
+    {Dodawanie nowego wniosku meldunkowego do bazy, lub wyświetlenie komunikatu o błędzie.}
     {
         \item Należy wprowadzić dane osobowe oraz dane adresowe
         \item Należy wywołać \textit{Sprawdzanie poprawności danych}, które odbędzie się w systemie PESEL.
@@ -209,18 +209,18 @@
     {Edycja danych wniosku}
     {Zmiana danych dotyczących wniosku.}
     {Inicjalizacja przez uruchomienie programu.}
-    {Dane wniosku są zaktualizowane, lub wyświetleny jest komunikat o błędzie.}
+    {Zaktualizowanie danych wniosku, lub wyświetlenie komunikatu o błędzie.}
     {
         \item Należy wprowadzić nowe dane osobowe oraz nowe dane adresowe, lub zmienić status wniosku.
         \item Jeśli status zostanie zmieniony należy wywołać \textit{Zmiana statusu wniosku}
-        \item Należy wywołać \textit{Sprawdzanie poprawności danych}, które odbędzie się w systemie PESEL.
+        \item Jeśli dane osobowe, lub dane adresowe zostaną zmienione należy wywołać \textit{Sprawdzanie poprawności danych}, które odbędzie się w systemie PESEL.
         \item Jeśli nowe dane okażą się prawidłowe wniosek jest aktualizowany, w przeciwnym razie użytkownik jest informowany o błędzie.
     }
 \scenario
     {Wyświetlanie wniosków}
     {Wyświetlenie wymaganych wniosków.}
     {Inicjalizacja przez uruchomienie programu.}
-    {Pożądane przez pracownika wnioski są wyświetlone.}
+    {Wyświetlenie wniosków.}
     {
         \item Należy wybrać wyświetlanie wniosków.
         \item Wszystkie wnioski przyporządkowane do danego urzędu zostają wyświetlone.
@@ -256,7 +256,7 @@
     {Wyświetlanie meldunków}
     {Wyświetlenie wymaganych meldunków.}
     {Inicjalizacja przez uruchomienie programu.}
-    {Pożądane przez pracownika meldunki są wyświetlone.}
+    {Wyświetlenie meldunków.}
     {
         \item Należy wybrać wyświetlanie meldunków.
         \item Wszystkie meldunki przyporządkowane do danego urzędu zostają wyświetlone.
@@ -279,5 +279,14 @@
         \item Należy wprowadzić nowe dane osobowe oraz nowe dane meldunkowe.
         \item Należy wywołać \textit{Sprawdzanie poprawności danych}, które odbędzie się w systemie PESEL.
         \item Jeśli nowe dane okażą się prawidłowe meldunek jest aktualizowany, w przeciwnym razie użytkownik jest informowany o błędzie.
+    }
+\scenario
+    {Sprawdzenie poprawności danych}
+    {Walidacja danych osobowych.}
+    {Może zostać wywołana z \textit{Edycja danych wniosku, Edycja danych meldunku}.}
+    {Potwierdzenie poprawności danych.}
+    {
+        \item Moduł obsługi systemu PESEL sprawdza matematyczną poprawność numeru PESEL.
+        \item System PESEL zwraca informacje dotyczącą poprawności danych oraz obecności obywatela w systemie.
     }
 \end{document}
