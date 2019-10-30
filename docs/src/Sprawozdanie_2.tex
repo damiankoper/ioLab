@@ -19,6 +19,8 @@
 \usepackage[bf]{caption}
 \usepackage{setspace}
 \input{common/commands.tex}
+\hyphenation{include}
+\hyphenation{extend}
 
 \begin{document}
 
@@ -116,15 +118,15 @@
         \begin{itemize}[noitemsep]
             \item PU \nameref{Zalogowanie}
             \item PU \nameref{Wylogowanie}
-            \item PU \nameref{Dodanie wniosku} powiącany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
-            \item PU \nameref{Edycja danych wniosku} powiącany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
-            \item PU \nameref{Zmiana statusu wniosku} powiącany przez \textit{<<extend>>} z PU \nameref{Edycja danych wniosku}
+            \item PU \nameref{Dodanie wniosku} powiązany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
+            \item PU \nameref{Edycja danych wniosku} powiązany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
+            \item PU \nameref{Zmiana statusu wniosku} powiązany przez \textit{<<extend>>} z PU \nameref{Edycja danych wniosku}
             \item PU \nameref{Wyświetlanie wniosków}
-            \item PU \nameref{Zmiana kryterium wyświetlania wniosków} powiącany przez \textit{<<extend>>} z PU \nameref{Wyświetlanie wniosków}
-            \item PU \nameref{Dodanie meldunku} powiącany przez \textit{<<extend>>} z PU \nameref{Zmiana statusu wniosku}
+            \item PU \nameref{Zmiana kryterium wyświetlania wniosków} powiązany przez \textit{<<extend>>} z PU \nameref{Wyświetlanie wniosków}
+            \item PU \nameref{Dodanie meldunku} powiązany przez \textit{<<extend>>} z PU \nameref{Zmiana statusu wniosku}
             \item PU \nameref{Wyświetlanie meldunków}
-            \item PU \nameref{Zmiana kryterium wyświetlania meldunków} powiącany przez \textit{<<extend>>} z PU \nameref{Wyświetlanie meldunków}
-            \item PU \nameref{Edycja danych meldunku} powiącany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
+            \item PU \nameref{Zmiana kryterium wyświetlania meldunków} powiązany przez \textit{<<extend>>} z PU \nameref{Wyświetlanie meldunków}
+            \item PU \nameref{Edycja danych meldunku} powiązany przez \textit{<<include>>} z PU \nameref{Sprawdzenie poprawności danych}
 
         \end{itemize}
         \\
@@ -135,7 +137,7 @@
 
 \newpage
 \section{Diagram przypadków użycia}
-\begin{figure}[h]
+\begin{figure}[!h]
     \centering
     \includegraphics[
         keepaspectratio,

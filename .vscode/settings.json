@@ -1,5 +1,15 @@
 {
     "latex-workshop.latex.outDir": "%DIR%/../out",
     "editor.wordWrap": "on",
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "spellright.language": [
+        "English (American)",
+        "English (British)",
+        "Polish"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }
