@@ -62,12 +62,12 @@
     \begin{enumerate}
         \item Pracownik może wprowadzić wniosek o typie \textit{stały} lub \textit{czasowy}.
     \end{enumerate}
+    \newpage
     \item Pracownik może edytować dane wniosku meldunkowego.
     \begin{enumerate}
         \item Pracownik może zmienić status wniosku - zaakceptować, lub odrzucić po podaniu powodu.
         \item Zaakceptowany wniosek zmienia się w rekord meldunku.
     \end{enumerate}
-    \item Wniosek, by być możliwym do zaakceptowania, musi zawierać komplet danych, które zgadzają się z danymi z systemu PESEL.
 \end{enumerate}
 \subsection{Zarządzanie meldunkami}
 \begin{enumerate}
@@ -84,7 +84,7 @@
 \section{Wymagania niefunkcjonalne}
 \begin{enumerate}
     \item Wszyscy użytkownicy, którzy mają dostęp do aplikacji (posiadają indywidualne konto) mają uprawnienia do edycji danych meldunkowych.
-    \item Rola administratora pozwala na zarządzanie użytkownikami i ich uprawnieniami.
+    \item Wniosek, by być możliwym do zaakceptowania, musi zawierać komplet danych, które zgadzają się z danymi z systemu PESEL.    
     \item System rejestruje historię wszystkich zmian danych meldunkowych.
     \item Dane przesyłane pomiędzy aplikacją, a systemem PESEL są szyfrowane.
     \item W przypadku braku łączności z systemem PESEL pracownik otrzymuje ostrzeżenie o tym fakcie.
@@ -229,7 +229,7 @@
 \scenario
     {Zmiana kryterium wyświetlania wniosków}
     {Zawężenie poszukiwań wniosków.}
-    {Musi zostać wywołany z \textit{Wyświetlanie wniosków} .}
+    {Musi zostać wywołany z \textit{Wyświetlanie wniosków}.}
     {Wyświetlenie tylko wniosków spełniających kryteria.}
     {
         \item Należy wprowadzić kryteria takie jak PESEL, imię i nazwisko.
@@ -239,9 +239,9 @@
     {Zmiana statusu wniosku}
     {Odrzucenie, lub zaakceptowanie wniosku.}
     {Musi zostać wywołana z \textit{Edycja danych wniosku}.}
-    {Wniosek zostaje odrzucony, lub zaakceptowany.}
+    {Wniosek zostaje odrzucony lub zaakceptowany.}
     {
-        \item Należy zmienić wniosku na odrzucony, lub zaakceptowany.
+        \item Należy zmienić status wniosku na odrzucony lub zaakceptowany.
         \item Jeśli wniosek został zaakceptowany należy wywołać \textit{Dodanie meldunku}.
     }
 \scenario
@@ -265,7 +265,7 @@
 \scenario
     {Zmiana kryterium wyświetlania meldunków}
     {Zawężenie poszukiwań meldunków.}
-    {Musi zostać wywołany z \textit{Wyświetlanie meldunków} .}
+    {Musi zostać wywołany z \textit{Wyświetlanie meldunków}.}
     {Wyświetlenie tylko meldunków spełniających kryteria.}
     {
         \item Należy wprowadzić kryteria takie jak PESEL, imię i nazwisko.
