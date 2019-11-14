@@ -43,11 +43,50 @@
 }
 
 \section{PU Wyświetlanie wniosków}
-
-
+\scenario
+    {Wyświetlanie wniosków}
+    {Wyświetlenie wymaganych wniosków.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Wyświetlenie wniosków.}
+    {
+        \item Należy wybrać wyświetlanie wniosków.
+        \item Wszystkie wnioski przyporządkowane do danego urzędu zostają wyświetlone.
+    }
+\scenario
+    {Zmiana kryterium wyświetlania wniosków}
+    {Zawężenie poszukiwań wniosków.}
+    {Musi zostać wywołany z \textit{Wyświetlanie wniosków}.}
+    {Wyświetlenie tylko wniosków spełniających kryteria.}
+    {
+        \item Należy wprowadzić kryteria takie jak PESEL, imię i nazwisko.
+        \item Wnioski spełniające podane kryteria są wyświetlane w formie tabeli.
+    }
 
 \section{PU Edycja danych wniosku}
 
+\scenario
+    {Edycja danych wniosku}
+    {Zmiana danych dotyczących wniosku.}
+    {Inicjalizacja przez uruchomienie programu.}
+    {Zaktualizowanie danych wniosku, lub wyświetlenie komunikatu o błędzie.}
+    {
+        \item Należy wpisać numer edytowanego wniosku.
+        \item Jeśli wniosek nie został znaleziony wyświetlany jest komunikat o braku wniosku o wpisanym numerze.
+        \item Należy wprowadzić nowe dane osobowe oraz nowe dane adresowe i zaktualizować status wniosku.
+        \item Jeśli status zostanie zmieniony należy wywołać \textit{Zmiana statusu wniosku}
+        \item Jeśli dane osobowe, lub dane adresowe zostaną zmienione należy wywołać \textit{Sprawdzanie poprawności danych}, które odbędzie się w systemie PESEL.
+        \item Jeśli nowe dane okażą się prawidłowe wniosek jest aktualizowany i wyświetlany jest komunikat informujący o prawidłowej edycji, w przeciwnym razie użytkownik jest informowany o błędzie.
+    }
+
+\scenario
+    {Zmiana statusu wniosku}
+    {Odrzucenie, lub zaakceptowanie wniosku.}
+    {Musi zostać wywołana z \textit{Edycja danych wniosku}.}
+    {Wniosek zostaje odrzucony lub zaakceptowany.}
+    {
+        \item Należy zmienić status wniosku na odrzucony lub zaakceptowany.
+        \item Jeśli wniosek został zaakceptowany należy wywołać \textit{Dodanie meldunku}.
+    }
 
 
 \end{document}
