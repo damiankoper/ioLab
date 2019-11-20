@@ -18,6 +18,7 @@
 \usepackage{tikz}
 \usepackage[bf]{caption}
 \usepackage{setspace}
+\usepackage{rotating}
 \input{common/commands.tex}
 \hyphenation{include}
 \hyphenation{extend}
@@ -62,6 +63,28 @@
         \item Wnioski spełniające podane kryteria są wyświetlane w formie tabeli.
     }
 
+    \begin{sidewaysfigure}[!h]
+        \centering
+        \includegraphics[
+            keepaspectratio,
+            width=\linewidth,
+            height=\dimexpr\textheight-9\baselineskip
+        ]{./../paragidm/export/PopulationRegistry_AD_2.jpg}
+        \caption{PU Wyświetlanie wniosków - model biznesowy}
+        \label{}
+    \end{sidewaysfigure}
+
+    \begin{sidewaysfigure}[!h]
+        \centering
+        \includegraphics[
+            keepaspectratio,
+            width=\linewidth,
+            height=\dimexpr\textheight-9\baselineskip
+        ]{./../paragidm/export/PopulationRegistry_AD_2_1.jpg}
+        \caption{PU Wyświetlanie wniosków}
+        \label{}
+    \end{sidewaysfigure}
+
 \section{PU Edycja danych wniosku}
 
 \scenario
@@ -88,5 +111,26 @@
         \item Jeśli wniosek został zaakceptowany należy wywołać \textit{Dodanie meldunku}.
     }
 
+    \begin{sidewaysfigure}[!h]
+        \centering
+        \includegraphics[
+            keepaspectratio,
+            width=\linewidth,
+            height=\dimexpr\textheight-9\baselineskip
+        ]{./../paragidm/export/PopulationRegistry_AD_1.jpg}
+        \caption{PU Edycja danych wniosku - model biznesowy}
+        \label{}
+    \end{sidewaysfigure}
+
+    \begin{sidewaysfigure}[!h]
+        \centering
+        \includegraphics[
+            keepaspectratio,
+            width=\linewidth,
+            height=\dimexpr\textheight-9\baselineskip
+        ]{./../paragidm/export/PopulationRegistry_AD_1_1.jpg}
+        \caption{PU Edycja danych wniosku}
+        \label{}
+    \end{sidewaysfigure}
 
 \end{document}
