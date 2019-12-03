@@ -1,13 +1,13 @@
 package populationRegistry.console;
 
-import java.util.HashMap;
+import java.util.Map;
 
 /**
  * IController
  */
 public interface IController {
 
-  public HashMap<String, String> getMenu();
+  public Map<String, String> getMenu();
 
   public String getName();
 }
