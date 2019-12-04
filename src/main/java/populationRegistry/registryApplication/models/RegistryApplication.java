@@ -4,7 +4,7 @@ package populationRegistry.registryApplication.models;
  * RegistryApplication
  */
 public class RegistryApplication extends RegistrationBase {
-  public Status status;
+  public Status status = Status.Pending;
 
   public enum Status {
     Pending("Oczekujący"), Accepted("Zaakceptowany"), Revoked("Odrzucony");

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class FilterDataDTO {
 
-  public boolean filter;
+  public boolean filter = false;
   public LinkedList<String> names = new LinkedList<>();
-  public LinkedList<Integer> numbers = new LinkedList<>(); 
+  public LinkedList<String> pesels = new LinkedList<>();
 }

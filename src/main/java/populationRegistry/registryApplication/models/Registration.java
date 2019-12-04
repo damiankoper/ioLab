@@ -4,7 +4,7 @@ package populationRegistry.registryApplication.models;
  * Registration
  */
 public class Registration extends RegistrationBase {
-  public Status status;
+  public Status status = Status.Current;
 
   public enum Status {
     Current("Obecny"), Outdated("Przeszły");

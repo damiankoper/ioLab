@@ -3,7 +3,7 @@ package populationRegistry.console;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.LinkedList;
-import java.util.Scanner;
+import populationRegistry.App;
 
 /**
  * ConsoleEngine
@@ -13,19 +13,17 @@ public class ConsoleEngine {
   private LinkedList<IController> controllers = new LinkedList<>();
 
   public void run() {
-    Scanner scanner = new Scanner(System.in);
     boolean exit = false;
     int input = 0;
     while (!exit) {
       displayMenu();
-      input = scanner.nextInt();
+      input = App.scanner.nextInt();
       if (input == 0) {
         exit = true;
       } else {
         dispatchCommand(input);
       }
     }
-    scanner.close();
   }
 
   public void registerController(IController controller) {
@@ -41,7 +39,8 @@ public class ConsoleEngine {
           Method method = iController.getClass()
               .getMethod(iController.getMenu().keySet().toArray()[number - commands].toString());
           method.invoke(iController);
-        } catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException | NoSuchMethodException e) {
+        } catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException
+            | NoSuchMethodException e) {
           e.printStackTrace();
         }
         return;

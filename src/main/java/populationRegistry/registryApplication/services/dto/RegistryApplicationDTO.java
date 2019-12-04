@@ -2,6 +2,7 @@ package populationRegistry.registryApplication.services.dto;
 
 public class RegistryApplicationDTO {
 
+  public int id;
   public String firstname;
   public String surname;
   public String pesel;
@@ -12,4 +13,5 @@ public class RegistryApplicationDTO {
   public String zipCode;
   public String city;
   public String country;
+  public String status;
 }

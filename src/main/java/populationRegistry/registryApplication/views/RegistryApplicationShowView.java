@@ -1,21 +1,21 @@
 package populationRegistry.registryApplication.views;
 
-import java.util.Scanner;
-
+import populationRegistry.App;
 import populationRegistry.registryApplication.services.dto.RegistryApplicationDTO;
 
 public class RegistryApplicationShowView {
 
   public int getApplicationId() {
-    System.out.println("Numer wniosku: ");
+    System.out.print("Numer wniosku: ");
     int id = 0;
-    Scanner scanner = new Scanner(System.in);
-    id = scanner.nextInt();
-    scanner.close();
+    id = App.scanner.nextInt();
     return id;
+
   }
 
   public void displayModel(RegistryApplicationDTO dto) {
+    System.out.println();
+    System.out.println("--- Dane wniosku " + String.valueOf(dto.id));
     System.out.println("Imię: " + dto.firstname);
     System.out.println("Nazwisko: " + dto.firstname);
     System.out.println("PESEL: " + dto.pesel);
@@ -26,10 +26,11 @@ public class RegistryApplicationShowView {
     System.out.println("Kod pocztowy: " + dto.zipCode);
     System.out.println("Miasto: " + dto.city);
     System.out.println("Kraj: " + dto.country);
+    System.out.println("Status: " + dto.status);
   }
 
   public void displayNotFoundError() {
-    System.out.println("Nie znalezioono wniosku!");
+    System.out.println("Nie znaleziono wniosku!");
   }
 
   public void displayNotValidError() {
@@ -38,5 +39,9 @@ public class RegistryApplicationShowView {
 
   public void displaySuccess() {
     System.out.println("Operacja przeprowadzona pomyślnie!");
+  }
+
+  public void displayError() {
+    System.out.println("Wystąpił błąd!");
   }
 }
