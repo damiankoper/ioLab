@@ -20,11 +20,14 @@ public class App {
     public static void main(String[] args) {
         RegistryApplicationRepository registryApplicationRepository = new RegistryApplicationRepository();
 
+        /**
+         * Data seed
+         */
         RegistryApplication registryApplication = new RegistryApplication();
         registryApplication.getPersonalData().dateOfBirth = LocalDate.of(1990, 01, 01);
         registryApplication.getPersonalData().firstname = "Damian";
         registryApplication.getPersonalData().surname = "Koper";
-        registryApplication.getPersonalData().pesel = "21371337123";
+        registryApplication.getPersonalData().pesel = "72060319389";
         registryApplication.getAddressData().apartmentNumber = "20";
         registryApplication.getAddressData().houseNumber = "10";
         registryApplication.getAddressData().street = "Marszałkowska";

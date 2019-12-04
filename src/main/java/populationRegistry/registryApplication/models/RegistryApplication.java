@@ -19,5 +19,14 @@ public class RegistryApplication extends RegistrationBase {
     public String toString() {
       return status;
     }
+
+    public static Status valueOfLabel(String label) {
+      for (Status e : values()) {
+        if (e.status.equals(label)) {
+          return e;
+        }
+      }
+      return null;
+    }
   }
 }

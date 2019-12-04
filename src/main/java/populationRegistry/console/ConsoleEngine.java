@@ -30,7 +30,7 @@ public class ConsoleEngine {
     controllers.add(controller);
   }
 
-  public void dispatchCommand(int number) {
+  private void dispatchCommand(int number) {
     int commands = 1;
     for (IController iController : controllers) {
       int commandCount = iController.getMenu().size();
@@ -49,7 +49,7 @@ public class ConsoleEngine {
     }
   }
 
-  public void displayMenu() {
+  private void displayMenu() {
     int option = 1;
     System.out.println("\n### Menu:");
     System.out.println("[0] Wyjście");

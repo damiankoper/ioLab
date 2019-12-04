@@ -1,18 +1,20 @@
 package populationRegistry.registryApplication.controllers;
 
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
 import populationRegistry.App;
 import populationRegistry.console.IController;
+import populationRegistry.pesel.PeselFacade;
 import populationRegistry.registryApplication.models.RegistryApplication;
+import populationRegistry.registryApplication.services.RegistrationService;
 import populationRegistry.registryApplication.services.RegistryApplicationService;
 import populationRegistry.registryApplication.services.dto.FilterDataDTO;
 import populationRegistry.registryApplication.services.dto.RegistryApplicationDTO;
 import populationRegistry.registryApplication.views.RegistryApplicationIndexView;
 import populationRegistry.registryApplication.views.RegistryApplicationShowView;
+import populationRegistry.registryApplication.views.RegistryApplicationUpdateView;
 import populationRegistry.registryApplication.views.dto.TableDTO;
 
 /**
@@ -53,14 +55,33 @@ public class RegistryApplicationController implements IController {
     if (registryApplication == null) {
       view.displayNotFoundError();
     } else {
-
       RegistryApplicationDTO dto = service.prepareDTO(registryApplication);
       view.displayModel(dto);
     }
   }
 
   public void update() {
-    System.out.println("update");
+    RegistryApplicationUpdateView view = new RegistryApplicationUpdateView();
+    RegistryApplicationService registryApplicationService = (RegistryApplicationService) App
+        .resolve(RegistryApplicationService.class);
+    RegistrationService registrationService = (RegistrationService) App.resolve(RegistrationService.class);
+    int id = view.getApplicationId();
+    RegistryApplication registryApplication = registryApplicationService.findById(id);
+    if (registryApplication == null) {
+      view.displayNotFoundError();
+    } else {
+      RegistryApplicationDTO dto = registryApplicationService.prepareDTO(registryApplication);
+      dto = view.getUpdateData(dto);
+      if (!PeselFacade.isValid(dto)) {
+        view.displayNotValidError();
+      } else {
+        registryApplicationService.update(registryApplication, dto);
+        if (registryApplication.status.equals(RegistryApplication.Status.Accepted)) {
+          registrationService.create(dto);
+          view.displayCreatedRegistration();
+        }
+        view.displaySuccess();
+      }
+    }
   }
-
 }

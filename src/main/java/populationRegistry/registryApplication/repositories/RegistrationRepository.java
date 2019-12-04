@@ -10,6 +10,7 @@ import populationRegistry.registryApplication.models.Registration;
  */
 public class RegistrationRepository implements IRepository<Registration> {
 
+    private int nextId = 1;
     private LinkedList<Registration> container = new LinkedList<>();
 
     @Override
@@ -26,6 +27,7 @@ public class RegistrationRepository implements IRepository<Registration> {
     public Registration save(Registration object) {
         if (!container.contains(object)) {
             container.add(object);
+            object.id = nextId++;
         }
         return object;
     }

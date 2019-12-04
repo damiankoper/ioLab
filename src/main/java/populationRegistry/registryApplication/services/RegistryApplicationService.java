@@ -1,6 +1,5 @@
 package populationRegistry.registryApplication.services;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -62,11 +61,10 @@ public class RegistryApplicationService {
         return true;
     }
 
-    public void update(RegistryApplication registryApplication, RegistryApplicationDTO dto) {
+    public RegistryApplication update(RegistryApplication registryApplication, RegistryApplicationDTO dto) {
         RegistryPersonalData personal = registryApplication.getPersonalData();
         RegistryAddressData address = registryApplication.getAddressData();
 
-        // TODO: VALID PESEL
         personal.firstname = dto.firstname;
         personal.surname = dto.surname;
         personal.pesel = dto.pesel;
@@ -78,11 +76,11 @@ public class RegistryApplicationService {
         address.street = dto.street;
         personal.dateOfBirth = LocalDate.parse(dto.dateOfBirth);
 
-        registryApplication.status = RegistryApplication.Status.valueOf(dto.status);
+        registryApplication.status = RegistryApplication.Status.valueOfLabel(dto.status);
 
         RegistryApplicationRepository repository = (RegistryApplicationRepository) App
                 .resolve(RegistryApplicationRepository.class);
-        repository.save(registryApplication);
+        return repository.save(registryApplication);
     }
 
     public RegistryApplicationDTO prepareDTO(RegistryApplication registryApplication) {

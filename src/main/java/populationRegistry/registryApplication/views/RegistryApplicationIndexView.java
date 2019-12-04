@@ -1,13 +1,10 @@
 package populationRegistry.registryApplication.views;
 
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import populationRegistry.App;
 import populationRegistry.registryApplication.services.dto.FilterDataDTO;
-import populationRegistry.registryApplication.services.dto.RegistryApplicationDTO;
 import populationRegistry.registryApplication.views.dto.TableDTO;
 
 public class RegistryApplicationIndexView {
