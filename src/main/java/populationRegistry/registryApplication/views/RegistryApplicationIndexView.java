@@ -37,13 +37,13 @@ public class RegistryApplicationIndexView {
 
   public void displayTable(TableDTO dto) {
     System.out.println();
+    System.out.println("--- Znalezione wnioski:");
     System.out
         .println(String.format(dto.headerFormat.stream().collect(Collectors.joining(" | ")), dto.header.toArray()));
     System.out.println("-".repeat(120));
     for (LinkedList<String> row : dto.body) {
       System.out.println(String.format(dto.bodyFormat.stream().collect(Collectors.joining(" | ")), row.toArray()));
     }
-    System.out.println();
   }
 
   public void displayNoRecordsInfo() {
