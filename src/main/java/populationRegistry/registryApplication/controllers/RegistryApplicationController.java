@@ -72,7 +72,8 @@ public class RegistryApplicationController implements IController {
     } else {
       RegistryApplicationDTO dto = registryApplicationService.prepareDTO(registryApplication);
       dto = view.getUpdateData(dto);
-      if (!PeselFacade.isValid(dto)) {
+      boolean isValid = PeselFacade.isValid(dto);
+      if (!isValid) {
         view.displayNotValidError();
       } else {
         registryApplicationService.update(registryApplication, dto);
