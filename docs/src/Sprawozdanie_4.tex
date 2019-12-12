@@ -105,7 +105,9 @@ Wszystkie klasy kontrolerów realizują interfejs \lstinline{IController}.
 Wykryto następujące klasy widoków używane do wyświetlania i odpytywania użytkownika o dane:
 \begin{itemize}[noitemsep]
     \item \lstinline{RegistryApplicationIndexView} - Wyświetlanie i filtrowanie wszystkich wniosków,
-    \item \lstinline{RegistryApplicationShowView} - Wyświetlanie i edytowanie pojedynczego wniosku.
+    \item \lstinline{RegistryApplicationShowView} - Wyświetlanie pojedynczego wniosku,
+    \item \lstinline
+    {RegistryApplicationUpdateView} - Edytowanie pojedyncego wniosku.
 \end{itemize}
 \subsubsection{Data transfer objects}
 
@@ -116,7 +118,7 @@ Wykryto następujące klasy widoków używane do wyświetlania i odpytywania uż
 \end{itemize}
 
 \subsection{PESEL}
-Komunikację z systemem PESEL realizować będzie klasa \lstinline{PecelFacade} realizująca interfejs \lstinline{IPeselFacade}.
+Komunikację z systemem PESEL odpowiedzialenego za weryfikacje danych osobowych będzie realizować będzie klasa \lstinline{PecelFacade} realizująca interfejs \lstinline{IPeselFacade}.
 
 \newpage
 
