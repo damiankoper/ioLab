@@ -51,10 +51,6 @@
     showtabs=false,                  
     tabsize=2
 }
-\lstset{
-    extendedchars=false,
-    inputencoding=utf8
-}
 \renewcommand{\lstlistlistingname}{Spis listingów}\lstset{style=mystyle}
 
 
@@ -185,7 +181,6 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
 \clearpage
 
 \section{Diagramy sekwencji}
-\subsection{Główna pętla sterowania}
 \begin{figure}[h]
     \centering
     \includegraphics[
@@ -197,32 +192,34 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 
-\lstinputlisting[language=Java, firstline=20,lastline=47]{../../src/main/java/populationRegistry/App.java}
-\subsection{Wyświetlanie wniosków}
-\begin{figure}[h]
-    \centering
-    \includegraphics[
-        keepaspectratio,
-        width=\linewidth,
-        height=\dimexpr\textheight-9\baselineskip
-    ]{./../paragidm/export/Population_Registry_SD_2.jpg}
-    \caption{Diagram sekwencji - wyświetlanie wniosków.}
-    \label{}
-\end{figure}
+\begin{lstlisting}[language=Java]
+    public static void main(String[] args) {
+        RegistryApplicationRepository registryApplicationRepository = new RegistryApplicationRepository();
 
-\lstinputlisting[language=Java, firstline=39,lastline=47]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+        /**
+         * Data seed
+         */
+        RegistryApplication registryApplication = new RegistryApplication();
+        registryApplication.getPersonalData().dateOfBirth = LocalDate.of(1990, 01, 01);
+        registryApplication.getPersonalData().firstname = "Damian";
+        registryApplication.getPersonalData().surname = "Koper";
+        registryApplication.getPersonalData().pesel = "72060319389";
+        registryApplication.getAddressData().apartmentNumber = "20";
+        registryApplication.getAddressData().houseNumber = "10";
+        registryApplication.getAddressData().street = "Marszałkowska";
+        registryApplication.getAddressData().zipCode = "00-043";
+        registryApplication.getAddressData().country = "Polska";
+        registryApplication.getAddressData().city = "Warszawa";
+        registryApplicationRepository.save(registryApplication);
 
-\subsection{Wyświetlanie pojedynczego wniosku}
-\begin{figure}[h]
-    \centering
-    \includegraphics[
-        keepaspectratio,
-        width=\linewidth,
-        height=\dimexpr\textheight-9\baselineskip
-    ]{./../paragidm/export/Population_Registry_SD_3.jpg}
-    \caption{Diagram sekwencji - wyświetlanie pojedynczego wniosku.}
-    \label{}
-\end{figure}
+        App.registerProvider(new RegistryApplicationService());
+        App.registerProvider(registryApplicationRepository);
+        App.registerProvider(new RegistrationService());
+        App.registerProvider(new RegistrationRepository());
 
-\lstinputlisting[language=Java, firstline=49,lastline=61]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+        ConsoleEngine engine = new ConsoleEngine();
+        engine.registerController(new RegistryApplicationController());
+        engine.run();
+    }
+\end{lstlisting}
 \end{document}

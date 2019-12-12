@@ -30,7 +30,7 @@ public class App {
         registryApplication.getPersonalData().pesel = "72060319389";
         registryApplication.getAddressData().apartmentNumber = "20";
         registryApplication.getAddressData().houseNumber = "10";
-        registryApplication.getAddressData().street = "Marszałkowska";
+        registryApplication.getAddressData().street = "Marszalkowska";
         registryApplication.getAddressData().zipCode = "00-043";
         registryApplication.getAddressData().country = "Polska";
         registryApplication.getAddressData().city = "Warszawa";
