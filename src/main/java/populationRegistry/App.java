@@ -5,10 +5,12 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 import populationRegistry.console.ConsoleEngine;
+import populationRegistry.pesel.PeselFacade;
 import populationRegistry.registryApplication.controllers.RegistryApplicationController;
 import populationRegistry.registryApplication.models.RegistryApplication;
 import populationRegistry.registryApplication.repositories.RegistrationRepository;
 import populationRegistry.registryApplication.repositories.RegistryApplicationRepository;
+import populationRegistry.registryApplication.services.IPeselFacade;
 import populationRegistry.registryApplication.services.RegistrationService;
 import populationRegistry.registryApplication.services.RegistryApplicationService;
 
@@ -40,6 +42,7 @@ public class App {
         App.registerProvider(registryApplicationRepository);
         App.registerProvider(new RegistrationService());
         App.registerProvider(new RegistrationRepository());
+        App.registerProvider(new PeselFacade());
 
         ConsoleEngine engine = new ConsoleEngine();
         engine.registerController(new RegistryApplicationController());

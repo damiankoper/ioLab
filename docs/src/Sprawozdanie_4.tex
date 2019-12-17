@@ -31,7 +31,7 @@
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{backcolour}{rgb}{0.99,0.99,0.973}
  
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{backcolour},   
@@ -277,7 +277,16 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 \lstinputlisting[language=Java, firstline=64,lastline=84, caption=Metoda update klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
-\end{document}
-
 \subsection{Metody klasy RegistrationService}
 tutaj uzupełnić
+
+\section{Kod źródłowy aplikacji}
+\lstinputlisting[language=Java, caption=Klasa App]{../../src/main/java/populationRegistry/App.java}
+\lstinputlisting[language=Java, caption=Interface IController]{../../src/main/java/populationRegistry/console/IController.java}
+\lstinputlisting[language=Java, caption=Klasa ConsoleEngine]{../../src/main/java/populationRegistry/console/ConsoleEngine.java}
+\lstinputlisting[language=Java, caption=Interface IPeselFacade]{../../src/main/java/populationRegistry/registryApplication/services/IPeselFacade.java}
+\lstinputlisting[language=Java, caption=Klasa PeselFacade]{../../src/main/java/populationRegistry/pesel/PeselFacade.java}
+\lstinputlisting[language=Java, caption=Interface IRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/IRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistrationRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistrationRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplicationRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistryApplicationRepository.java}
+\end{document}
