@@ -25,8 +25,8 @@ public class RegistryApplicationController implements IController {
   @Override
   public Map<String, String> getMenu() {
     Map<String, String> menu = new LinkedHashMap<>();
-    menu.put("index", "Wyświetl wnioski");
-    menu.put("show", "Wyświetl dane wniosku");
+    menu.put("index", "Wyswietl wnioski");
+    menu.put("show", "Wyswietl dane wniosku");
     menu.put("update", "Edytuj wniosek");
     return menu;
   }

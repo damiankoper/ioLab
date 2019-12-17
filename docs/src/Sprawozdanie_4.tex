@@ -172,7 +172,7 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{sidewaysfigure}
 
-\begin{sidewaysfigure}[h]
+\begin{sidewaysfigure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -186,7 +186,7 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
 
 \section{Diagramy sekwencji}
 \subsection{Główna pętla sterowania}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -197,9 +197,9 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 
-\lstinputlisting[language=Java, firstline=20,lastline=47]{../../src/main/java/populationRegistry/App.java}
+\lstinputlisting[language=Java, firstline=20,lastline=47, caption=Metoda main klasy App]{../../src/main/java/populationRegistry/App.java}
 \subsection{Wyświetlanie wniosków}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -210,10 +210,10 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 
-\lstinputlisting[language=Java, firstline=39,lastline=47]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+\lstinputlisting[language=Java, firstline=39,lastline=47, caption=Metoda index klasy RegistryApplicationController]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
 
 \subsection{Wyświetlanie pojedynczego wniosku}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -224,5 +224,60 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 
-\lstinputlisting[language=Java, firstline=49,lastline=61]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+\lstinputlisting[language=Java, firstline=49,lastline=61, caption=Metoda show klasy RegistryApplicationController]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+
+\subsection{Edycja danych wniosku}
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_4.jpg}
+    \caption{Diagram sekwencji - edycja danych wniosku.}
+    \label{}
+\end{figure}
+
+\lstinputlisting[language=Java, firstline=63,lastline=87, caption=Metoda update klasy RegistryApplicationController]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+
+
+\subsection{Metody klasy RegistryApplicationService}
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_5.jpg}
+    \caption{Diagram sekwencji - metoda findAll klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=22,lastline=26, caption=Metoda findAll klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_6.jpg}
+    \caption{Diagram sekwencji - metoda findById klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=28,lastline=32, caption=Metoda findById klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_7.jpg}
+    \caption{Diagram sekwencji - metoda update klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=64,lastline=84, caption=Metoda update klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
 \end{document}
+
+\subsection{Metody klasy RegistrationService}
+tutaj uzupełnić

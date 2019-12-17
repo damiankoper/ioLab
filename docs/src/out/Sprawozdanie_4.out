@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Przypadki uzycia - zakres analizy}{}% 1
+\BOOKMARK [1][-]{section.2}{Analiza wsp\363lnosci}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Encje}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{G\233\363wny przep\233yw sterowania}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Widoki}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Data transfer objects}{subsection.2.3}% 6
+\BOOKMARK [2][-]{subsection.2.4}{PESEL}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Analiza zmiennosci}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Encje}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Przechowywanie danych}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Logika biznesowa}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Wzorce projektowe}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Flyweight}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Singleton}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{Fasada}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Diagramy sekwencji}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{G\233\363wna petla sterowania}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{Wyswietlanie wniosk\363w}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.3}{Wyswietlanie pojedynczego wniosku}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.4}{Edycja danych wniosku}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.5}{Metody klasy RegistryApplicationService}{section.5}% 21

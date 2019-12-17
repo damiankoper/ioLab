@@ -107,7 +107,7 @@ public class RegistryApplicationService {
     public TableDTO prepareTableDTO(List<RegistryApplication> list) {
         TableDTO dto = new TableDTO();
         dto.header = new LinkedList<String>(
-                Arrays.asList("Id", "Imię", "Nazwisko", "PESEL", "Wnioskowany adres zameldowania"));
+                Arrays.asList("Id", "Imie", "Nazwisko", "PESEL", "Wnioskowany adres zameldowania"));
         LinkedList<String> format = new LinkedList<String>(Arrays.asList("%5s", "%15s", "%15s", "%11s", "%60s"));
         dto.headerFormat = format;
         dto.bodyFormat = format;

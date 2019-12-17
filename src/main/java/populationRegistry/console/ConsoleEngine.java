@@ -52,7 +52,7 @@ public class ConsoleEngine {
   private void displayMenu() {
     int option = 1;
     System.out.println("\n### Menu:");
-    System.out.println("[0] Wyjście");
+    System.out.println("[0] Wyjscie");
     for (IController iController : controllers) {
       System.out.println("--- " + iController.getName());
       for (String name : iController.getMenu().keySet()) {

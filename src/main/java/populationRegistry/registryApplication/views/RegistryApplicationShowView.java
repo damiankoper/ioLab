@@ -16,7 +16,7 @@ public class RegistryApplicationShowView {
   public void displayModel(RegistryApplicationDTO dto) {
     System.out.println();
     System.out.println("--- Dane wniosku " + String.valueOf(dto.id));
-    System.out.println("Imię: " + dto.firstname);
+    System.out.println("Imie: " + dto.firstname);
     System.out.println("Nazwisko: " + dto.surname);
     System.out.println("PESEL: " + dto.pesel);
     System.out.println("Data urodzenia: " + dto.dateOfBirth);
