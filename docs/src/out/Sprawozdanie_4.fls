@@ -324,6 +324,15 @@ INPUT ./../paragidm/export/Population_Registry_SD_11.jpg
 INPUT ../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java
 INPUT ../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java
 INPUT ../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java
+INPUT common/use1.png
+INPUT ./common/use1.png
+INPUT ./common/use1.png
+INPUT common/use2.png
+INPUT ./common/use2.png
+INPUT ./common/use2.png
+INPUT common/use3.png
+INPUT ./common/use3.png
+INPUT ./common/use3.png
 INPUT ../../src/main/java/populationRegistry/App.java
 INPUT ../../src/main/java/populationRegistry/App.java
 INPUT ../../src/main/java/populationRegistry/App.java

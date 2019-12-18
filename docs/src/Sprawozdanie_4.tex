@@ -329,24 +329,48 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
 \end{figure}
 \lstinputlisting[language=Java, firstline=17,lastline=37, caption=Metoda create klasy RegistrationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java}
 \clearpage
+
+\section{Prezentacja działania aplikacji}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{common/use1}
+    \caption{Wyświetlanie wniosków bez filtrowania.}
+    \label{fig:obrazek1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth,height=6cm, keepaspectratio]{common/use2}
+    \caption{Wyświetlanie wniosku.}
+    \label{fig:obrazek2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth,height=8cm, keepaspectratio]{common/use3}
+    \caption{Edycja danych wniosku.}
+    \label{fig:obrazek3}
+\end{figure}
+\clearpage
 \section{Kod źródłowy aplikacji}
-\lstinputlisting[language=Java, caption=Klasa App]{../../src/main/java/populationRegistry/App.java}
-\lstinputlisting[language=Java, caption=Interface IController]{../../src/main/java/populationRegistry/console/IController.java}
-\lstinputlisting[language=Java, caption=Klasa ConsoleEngine]{../../src/main/java/populationRegistry/console/ConsoleEngine.java}
-\lstinputlisting[language=Java, caption=Interface IPeselFacade]{../../src/main/java/populationRegistry/registryApplication/services/IPeselFacade.java}
-\lstinputlisting[language=Java, caption=Klasa PeselFacade]{../../src/main/java/populationRegistry/pesel/PeselFacade.java}
-\lstinputlisting[language=Java, caption=Interface IRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/IRepository.java}
-\lstinputlisting[language=Java, caption=Klasa RegistrationRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistrationRepository.java}
-\lstinputlisting[language=Java, caption=Klasa RegistryApplicationRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistryApplicationRepository.java}
-\lstinputlisting[language=Java, caption=Klasa RegistrationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java}
-\lstinputlisting[language=Java, caption=Klasa RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+W celu skrócenia sprawozdania wszystkie sekcje importu na listingach zostały usunięte.
+\lstinputlisting[language=Java, caption=Klasa App, firstline=17]{../../src/main/java/populationRegistry/App.java}
+\lstinputlisting[language=Java, caption=Interface IController, firstline=8]{../../src/main/java/populationRegistry/console/IController.java}
+\lstinputlisting[language=Java, caption=Klasa ConsoleEngine, firstline=11]{../../src/main/java/populationRegistry/console/ConsoleEngine.java}
+\lstinputlisting[language=Java, caption=Interface IPeselFacade, firstline=8]{../../src/main/java/populationRegistry/registryApplication/services/IPeselFacade.java}
+\lstinputlisting[language=Java, caption=Klasa PeselFacade, firstline=11]{../../src/main/java/populationRegistry/pesel/PeselFacade.java}
+\lstinputlisting[language=Java, caption=Interface IRepository, firstline=8]{../../src/main/java/populationRegistry/registryApplication/repositories/IRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistrationRepository, firstline=11]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistrationRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplicationRepository, firstline=11]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistryApplicationRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistrationService, firstline=15]{../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplicationService, firstline=20]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
 
-\lstinputlisting[language=Java, caption=Klasa FilterDataDTO]{../../src/main/java/populationRegistry/registryApplication/services/dto/FilterDataDTO.java}
-\lstinputlisting[language=Java, caption=Klasa RegistryApplicationDTO]{../../src/main/java/populationRegistry/registryApplication/services/dto/RegistryApplicationDTO.java}
+\lstinputlisting[language=Java, caption=Klasa FilterDataDTO, firstline=5]{../../src/main/java/populationRegistry/registryApplication/services/dto/FilterDataDTO.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplicationDTO, firstline=3]{../../src/main/java/populationRegistry/registryApplication/services/dto/RegistryApplicationDTO.java}
 
-\lstinputlisting[language=Java, caption=Klasa RegistrationBase]{../../src/main/java/populationRegistry/registryApplication/models/RegistrationBase.java}
-\lstinputlisting[language=Java, caption=Klasa Registration]{../../src/main/java/populationRegistry/registryApplication/models/Registration.java}
-\lstinputlisting[language=Java, caption=Klasa RegistryApplication]{../../src/main/java/populationRegistry/registryApplication/models/RegistryApplication.java}
-\lstinputlisting[language=Java, caption=Klasa RegistryAddressData]{../../src/main/java/populationRegistry/registryApplication/models/RegistryAddressData.java}
-\lstinputlisting[language=Java, caption=Klasa RegistryPersonalData]{../../src/main/java/populationRegistry/registryApplication/models/RegistryPersonalData.java}
+\lstinputlisting[language=Java, caption=Klasa RegistrationBase, firstline=6]{../../src/main/java/populationRegistry/registryApplication/models/RegistrationBase.java}
+\lstinputlisting[language=Java, caption=Klasa Registration, firstline=6]{../../src/main/java/populationRegistry/registryApplication/models/Registration.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplication, firstline=6]{../../src/main/java/populationRegistry/registryApplication/models/RegistryApplication.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryAddressData, firstline=6]{../../src/main/java/populationRegistry/registryApplication/models/RegistryAddressData.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryPersonalData, firstline=8]{../../src/main/java/populationRegistry/registryApplication/models/RegistryPersonalData.java}
 \end{document}
