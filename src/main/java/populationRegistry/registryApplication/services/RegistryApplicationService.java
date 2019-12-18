@@ -36,7 +36,8 @@ public class RegistryApplicationService {
         if (filterData.filter) {
             result = new LinkedList<RegistryApplication>();
             for (RegistryApplication registryApplication : list) {
-                if (!isFiltered(registryApplication, filterData)) {
+                boolean filtered = isFiltered(registryApplication, filterData);
+                if (!filtered) {
                     result.add(registryApplication);
                 }
             }
