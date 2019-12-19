@@ -18,7 +18,7 @@ public class RegistryApplicationUpdateView {
     System.out.println("--- Aktualizacja danych wniosku " + String.valueOf(dto.id));
     System.out.println("--- Pusta linia nie zmienia danych");
     input = App.scanner.nextLine();
-    System.out.print("Imię[" + dto.firstname + "]: ");
+    System.out.print("Imie[" + dto.firstname + "]: ");
     input = App.scanner.nextLine();
     dto.firstname = input.isEmpty() ? dto.firstname : input;
     System.out.print("Nazwisko[" + dto.surname + "]: ");
@@ -48,9 +48,9 @@ public class RegistryApplicationUpdateView {
     System.out.print("Kraj[" + dto.country + "]: ");
     input = App.scanner.nextLine();
     dto.country = input.isEmpty() ? dto.country : input;
-    System.out.print("Status[" + dto.status + "][Oczekujący|Zaakceptowany|Odrzucony]: ");
+    System.out.print("Status[" + dto.status + "][Oczekujacy|Zaakceptowany|Odrzucony]: ");
     input = "sth";
-    while (!input.equals("Oczekujący") && !input.equals("Zaakceptowany") && !input.equals("Odrzucony")) {
+    while (!input.equals("Oczekujacy") && !input.equals("Zaakceptowany") && !input.equals("Odrzucony")) {
       input = App.scanner.nextLine();
       if (input.isEmpty())
         break;
@@ -66,16 +66,16 @@ public class RegistryApplicationUpdateView {
 
   public void displayNotValidError() {
     System.out.println();
-    System.out.println("Bład! Dane niezgodne z systemem PESEL!");
+    System.out.println("Blad! Dane niezgodne z systemem PESEL!");
   }
 
   public void displaySuccess() {
     System.out.println();
-    System.out.println("Operacja przeprowadzona pomyślnie!");
+    System.out.println("Operacja przeprowadzona pomyslnie!");
   }
 
   public void displayCreatedRegistration() {
     System.out.println();
-    System.out.println("Zaakceptowano wniosek. Utworzono rejestrację meldunku.");
+    System.out.println("Zaakceptowano wniosek. Utworzono rejestracje meldunku.");
   }
 }

@@ -2,13 +2,14 @@ package populationRegistry.pesel;
 
 import java.util.ArrayList;
 
+import populationRegistry.registryApplication.services.IPeselFacade;
 import populationRegistry.registryApplication.services.dto.RegistryApplicationDTO;
 
 /**
  * PeselFacade
  */
-public class PeselFacade {
-    private static boolean isChecksumValid(String pesel) {
+public class PeselFacade implements IPeselFacade {
+    private boolean isChecksumValid(String pesel) {
         String integers[] = pesel.split("");
         if (integers.length != 11) {
             return false;
@@ -28,14 +29,14 @@ public class PeselFacade {
         return sum == 0;
     }
 
-    private static boolean isDataValid(RegistryApplicationDTO dto) {
+    private boolean isDataValid(RegistryApplicationDTO dto) {
         /**
          * Validation hidden behind facade. Connection to PESEL system.
          */
         return true;
     }
 
-    public static boolean isValid(RegistryApplicationDTO dto) {
+    public boolean isValid(RegistryApplicationDTO dto) {
         if (!isChecksumValid(dto.pesel))
             return false;
         return isDataValid(dto);

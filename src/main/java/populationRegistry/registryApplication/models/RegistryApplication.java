@@ -7,7 +7,7 @@ public class RegistryApplication extends RegistrationBase {
   public Status status = Status.Pending;
 
   public enum Status {
-    Pending("Oczekujący"), Accepted("Zaakceptowany"), Revoked("Odrzucony");
+    Pending("Oczekujacy"), Accepted("Zaakceptowany"), Revoked("Odrzucony");
 
     private String status;
 

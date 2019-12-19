@@ -8,6 +8,7 @@ import populationRegistry.App;
 import populationRegistry.console.IController;
 import populationRegistry.pesel.PeselFacade;
 import populationRegistry.registryApplication.models.RegistryApplication;
+import populationRegistry.registryApplication.services.IPeselFacade;
 import populationRegistry.registryApplication.services.RegistrationService;
 import populationRegistry.registryApplication.services.RegistryApplicationService;
 import populationRegistry.registryApplication.services.dto.FilterDataDTO;
@@ -25,8 +26,8 @@ public class RegistryApplicationController implements IController {
   @Override
   public Map<String, String> getMenu() {
     Map<String, String> menu = new LinkedHashMap<>();
-    menu.put("index", "Wyświetl wnioski");
-    menu.put("show", "Wyświetl dane wniosku");
+    menu.put("index", "Wyswietl wnioski");
+    menu.put("show", "Wyswietl dane wniosku");
     menu.put("update", "Edytuj wniosek");
     return menu;
   }
@@ -65,6 +66,7 @@ public class RegistryApplicationController implements IController {
     RegistryApplicationService registryApplicationService = (RegistryApplicationService) App
         .resolve(RegistryApplicationService.class);
     RegistrationService registrationService = (RegistrationService) App.resolve(RegistrationService.class);
+    IPeselFacade peselFacade = (IPeselFacade) App.resolve(PeselFacade.class);
     int id = view.getApplicationId();
     RegistryApplication registryApplication = registryApplicationService.findById(id);
     if (registryApplication == null) {
@@ -72,7 +74,7 @@ public class RegistryApplicationController implements IController {
     } else {
       RegistryApplicationDTO dto = registryApplicationService.prepareDTO(registryApplication);
       dto = view.getUpdateData(dto);
-      boolean isValid = PeselFacade.isValid(dto);
+      boolean isValid = peselFacade.isValid(dto);
       if (!isValid) {
         view.displayNotValidError();
       } else {

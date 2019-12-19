@@ -31,7 +31,7 @@
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{backcolour}{rgb}{0.99,0.99,0.973}
  
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{backcolour},   
@@ -172,7 +172,7 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{sidewaysfigure}
 
-\begin{sidewaysfigure}[h]
+\begin{sidewaysfigure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -186,7 +186,7 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
 
 \section{Diagramy sekwencji}
 \subsection{Główna pętla sterowania}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -197,9 +197,9 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 
-\lstinputlisting[language=Java, firstline=20,lastline=47]{../../src/main/java/populationRegistry/App.java}
+\lstinputlisting[language=Java, firstline=20,lastline=47, caption=Metoda main klasy App]{../../src/main/java/populationRegistry/App.java}
 \subsection{Wyświetlanie wniosków}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -210,10 +210,10 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 
-\lstinputlisting[language=Java, firstline=39,lastline=47]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+\lstinputlisting[language=Java, firstline=39,lastline=47, caption=Metoda index klasy RegistryApplicationController]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
 
 \subsection{Wyświetlanie pojedynczego wniosku}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[
         keepaspectratio,
@@ -224,5 +224,129 @@ Wzorzec fasada użyty został przy zdefiniowaniu klasy \lstinline{PeselFasade}, 
     \label{}
 \end{figure}
 
-\lstinputlisting[language=Java, firstline=49,lastline=61]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+\lstinputlisting[language=Java, firstline=49,lastline=61, caption=Metoda show klasy RegistryApplicationController]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+
+\subsection{Edycja danych wniosku}
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_4.jpg}
+    \caption{Diagram sekwencji - edycja danych wniosku.}
+    \label{}
+\end{figure}
+
+\lstinputlisting[language=Java, firstline=63,lastline=87, caption=Metoda update klasy RegistryApplicationController]{../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java}
+
+\clearpage
+\subsection{Metody klasy RegistryApplicationService}
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_5.jpg}
+    \caption{Diagram sekwencji - metoda findAll klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=22,lastline=26, caption=Metoda findAll klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_6.jpg}
+    \caption{Diagram sekwencji - metoda findById klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=28,lastline=32, caption=Metoda findById klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_7.jpg}
+    \caption{Diagram sekwencji - metoda filter klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=64,lastline=84, caption=Metoda update klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_8.jpg}
+    \caption{Diagram sekwencji - metoda filter klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=34,lastline=63, caption=Metoda filter klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_9.jpg}
+    \caption{Diagram sekwencji - metoda prepareTableDTO klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=108,lastline=130, caption=Metoda prepareTableDTO klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_10.jpg}
+    \caption{Diagram sekwencji - metoda prepareDTO klasy RegistryApplicationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=87,lastline=106, caption=Metoda prepareDTO klasy RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+
+
+\subsection{Metody klasy RegistrationService}
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        keepaspectratio,
+        width=\linewidth,
+        height=\dimexpr\textheight-9\baselineskip
+    ]{./../paragidm/export/Population_Registry_SD_11.jpg}
+    \caption{Diagram sekwencji - metoda create klasy RegistrationService.}
+    \label{}
+\end{figure}
+\lstinputlisting[language=Java, firstline=17,lastline=37, caption=Metoda create klasy RegistrationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java}
+\clearpage
+\section{Kod źródłowy aplikacji}
+\lstinputlisting[language=Java, caption=Klasa App]{../../src/main/java/populationRegistry/App.java}
+\lstinputlisting[language=Java, caption=Interface IController]{../../src/main/java/populationRegistry/console/IController.java}
+\lstinputlisting[language=Java, caption=Klasa ConsoleEngine]{../../src/main/java/populationRegistry/console/ConsoleEngine.java}
+\lstinputlisting[language=Java, caption=Interface IPeselFacade]{../../src/main/java/populationRegistry/registryApplication/services/IPeselFacade.java}
+\lstinputlisting[language=Java, caption=Klasa PeselFacade]{../../src/main/java/populationRegistry/pesel/PeselFacade.java}
+\lstinputlisting[language=Java, caption=Interface IRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/IRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistrationRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistrationRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplicationRepository]{../../src/main/java/populationRegistry/registryApplication/repositories/RegistryApplicationRepository.java}
+\lstinputlisting[language=Java, caption=Klasa RegistrationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplicationService]{../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java}
+
+\lstinputlisting[language=Java, caption=Klasa FilterDataDTO]{../../src/main/java/populationRegistry/registryApplication/services/dto/FilterDataDTO.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplicationDTO]{../../src/main/java/populationRegistry/registryApplication/services/dto/RegistryApplicationDTO.java}
+
+\lstinputlisting[language=Java, caption=Klasa RegistrationBase]{../../src/main/java/populationRegistry/registryApplication/models/RegistrationBase.java}
+\lstinputlisting[language=Java, caption=Klasa Registration]{../../src/main/java/populationRegistry/registryApplication/models/Registration.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryApplication]{../../src/main/java/populationRegistry/registryApplication/models/RegistryApplication.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryAddressData]{../../src/main/java/populationRegistry/registryApplication/models/RegistryAddressData.java}
+\lstinputlisting[language=Java, caption=Klasa RegistryPersonalData]{../../src/main/java/populationRegistry/registryApplication/models/RegistryPersonalData.java}
 \end{document}
