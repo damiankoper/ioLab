@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.12.14)  18 DEC 2019 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.12.14)  18 DEC 2019 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,6 +600,9 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `Sprawozdanie_4.aux'.
 
@@ -733,8 +736,11 @@ File: ./../paragidm/export/PopulationRegistry_CD_1.jpg Graphic file (type jpg)
 <use ./../paragidm/export/PopulationRegistry_CD_1.jpg>
 Package pdftex.def Info: ./../paragidm/export/PopulationRegistry_CD_1.jpg  used on input line 181.
 (pdftex.def)             Requested size: 681.1569pt x 385.69145pt.
-[4] [5 <./../paragidm/export/PopulationRegistry_CD.jpg>]
-<./../paragidm/export/Population_Regestry_SD_1.jpg, id=135, 1139.25626pt x 770.88pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./../paragidm/export/PopulationRegistry_CD.jpg>] [6 <./../paragidm/export/PopulationRegistry_CD_1.jpg>]
+<./../paragidm/export/Population_Regestry_SD_1.jpg, id=140, 1139.25626pt x 770.88pt>
 File: ./../paragidm/export/Population_Regestry_SD_1.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Regestry_SD_1.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Regestry_SD_1.jpg  used on input line 195.
@@ -743,91 +749,91 @@ Package pdftex.def Info: ./../paragidm/export/Population_Regestry_SD_1.jpg  used
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 200.
- (../../src/main/java/populationRegistry/App.java [6
+ (../../src/main/java/populationRegistry/App.java [7
 
  <./../paragidm/export/Population_Regestry_SD_1.jpg>])
-<./../paragidm/export/Population_Registry_SD_2.jpg, id=152, 836.12375pt x 486.81876pt>
+<./../paragidm/export/Population_Registry_SD_2.jpg, id=159, 836.12375pt x 486.81876pt>
 File: ./../paragidm/export/Population_Registry_SD_2.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_2.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_2.jpg  used on input line 208.
 (pdftex.def)             Requested size: 500.49161pt x 291.40268pt.
- [7] (../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java)
-<./../paragidm/export/Population_Registry_SD_3.jpg, id=178, 943.525pt x 551.05875pt>
+ [8] (../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java)
+<./../paragidm/export/Population_Registry_SD_3.jpg, id=183, 943.525pt x 551.05875pt>
 File: ./../paragidm/export/Population_Registry_SD_3.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_3.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_3.jpg  used on input line 222.
 (pdftex.def)             Requested size: 500.48338pt x 292.30357pt.
- [8 <./../paragidm/export/Population_Registry_SD_2.jpg>] (../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java)
-<./../paragidm/export/Population_Registry_SD_4.jpg, id=194, 1368.11125pt x 952.55875pt>
+ [9 <./../paragidm/export/Population_Registry_SD_2.jpg>] (../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java)
+<./../paragidm/export/Population_Registry_SD_4.jpg, id=199, 1368.11125pt x 952.55875pt>
 File: ./../paragidm/export/Population_Registry_SD_4.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_4.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_4.jpg  used on input line 236.
 (pdftex.def)             Requested size: 500.47331pt x 348.45866pt.
- [9 <./../paragidm/export/Population_Registry_SD_3.jpg>] (../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java [10 <./../paragidm/export/Population_Registry_SD_4.jpg>]) [11]
-<./../paragidm/export/Population_Registry_SD_5.jpg, id=249, 631.35875pt x 192.72pt>
+ [10 <./../paragidm/export/Population_Registry_SD_3.jpg>] (../../src/main/java/populationRegistry/registryApplication/controllers/RegistryApplicationController.java [11 <./../paragidm/export/Population_Registry_SD_4.jpg>]) [12]
+<./../paragidm/export/Population_Registry_SD_5.jpg, id=254, 631.35875pt x 192.72pt>
 File: ./../paragidm/export/Population_Registry_SD_5.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_5.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_5.jpg  used on input line 251.
 (pdftex.def)             Requested size: 500.49239pt x 152.7735pt.
  (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java)
-<./../paragidm/export/Population_Registry_SD_6.jpg, id=250, 620.3175pt x 247.92625pt>
+<./../paragidm/export/Population_Registry_SD_6.jpg, id=255, 620.3175pt x 247.92625pt>
 File: ./../paragidm/export/Population_Registry_SD_6.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_6.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_6.jpg  used on input line 263.
 (pdftex.def)             Requested size: 500.48566pt x 200.03229pt.
- (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [12
+ (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [13
 
  <./../paragidm/export/Population_Registry_SD_5.jpg> <./../paragidm/export/Population_Registry_SD_6.jpg>])
-<./../paragidm/export/Population_Registry_SD_7.jpg, id=267, 1204.5pt x 467.7475pt>
+<./../paragidm/export/Population_Registry_SD_7.jpg, id=273, 1204.5pt x 467.7475pt>
 File: ./../paragidm/export/Population_Registry_SD_7.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_7.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_7.jpg  used on input line 275.
 (pdftex.def)             Requested size: 500.48308pt x 194.35425pt.
- (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [13 <./../paragidm/export/Population_Registry_SD_7.jpg>])
-<./../paragidm/export/Population_Registry_SD_8.jpg, id=295, 873.2625pt x 657.45625pt>
+ (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [14 <./../paragidm/export/Population_Registry_SD_7.jpg>])
+<./../paragidm/export/Population_Registry_SD_8.jpg, id=300, 873.2625pt x 657.45625pt>
 File: ./../paragidm/export/Population_Registry_SD_8.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_8.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_8.jpg  used on input line 287.
 (pdftex.def)             Requested size: 500.48308pt x 376.80048pt.
- (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [14 <./../paragidm/export/Population_Registry_SD_8.jpg>])
-<./../paragidm/export/Population_Registry_SD_9.jpg, id=312, 777.90625pt x 421.575pt>
+ (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [15 <./../paragidm/export/Population_Registry_SD_8.jpg>])
+<./../paragidm/export/Population_Registry_SD_9.jpg, id=317, 777.90625pt x 421.575pt>
 File: ./../paragidm/export/Population_Registry_SD_9.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_9.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_9.jpg  used on input line 299.
 (pdftex.def)             Requested size: 500.49341pt x 271.23512pt.
- [15] (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [16 <./../paragidm/export/Population_Registry_SD_9.jpg>])
-<./../paragidm/export/Population_Registry_SD_10.jpg, id=364, 776.9025pt x 340.27126pt>
+ [16] (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [17 <./../paragidm/export/Population_Registry_SD_9.jpg>])
+<./../paragidm/export/Population_Registry_SD_10.jpg, id=369, 776.9025pt x 340.27126pt>
 File: ./../paragidm/export/Population_Registry_SD_10.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_10.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_10.jpg  used on input line 311.
 (pdftex.def)             Requested size: 500.4996pt x 219.21106pt.
- (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [17 <./../paragidm/export/Population_Registry_SD_10.jpg>])
-<./../paragidm/export/Population_Registry_SD_11.jpg, id=390, 927.465pt x 581.17125pt>
+ (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [18 <./../paragidm/export/Population_Registry_SD_10.jpg>])
+<./../paragidm/export/Population_Registry_SD_11.jpg, id=395, 927.465pt x 581.17125pt>
 File: ./../paragidm/export/Population_Registry_SD_11.jpg Graphic file (type jpg)
 <use ./../paragidm/export/Population_Registry_SD_11.jpg>
 Package pdftex.def Info: ./../paragidm/export/Population_Registry_SD_11.jpg  used on input line 326.
 (pdftex.def)             Requested size: 500.484pt x 313.61497pt.
- (../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java [18 <./../paragidm/export/Population_Registry_SD_11.jpg>]) [19]
-<common/use1.png, id=431, 980.66376pt x 226.8475pt>
+ (../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java [19 <./../paragidm/export/Population_Registry_SD_11.jpg>]) [20]
+<common/use1.png, id=436, 980.66376pt x 226.8475pt>
 File: common/use1.png Graphic file (type png)
 <use common/use1.png>
 Package pdftex.def Info: common/use1.png  used on input line 336.
 (pdftex.def)             Requested size: 500.484pt x 115.7703pt.
-<common/use2.png, id=433, 261.97874pt x 351.3125pt>
+<common/use2.png, id=438, 261.97874pt x 351.3125pt>
 File: common/use2.png Graphic file (type png)
 <use common/use2.png>
 Package pdftex.def Info: common/use2.png  used on input line 343.
 (pdftex.def)             Requested size: 127.30737pt x 170.7187pt.
-<common/use3.png, id=434, 457.71pt x 401.5pt>
+<common/use3.png, id=439, 457.71pt x 401.5pt>
 File: common/use3.png Graphic file (type png)
 <use common/use3.png>
 Package pdftex.def Info: common/use3.png  used on input line 350.
 (pdftex.def)             Requested size: 259.4936pt x 227.62596pt.
- [20
+ [21
 
- <./common/use1.png> <./common/use2.png> <./common/use3.png>] (../../src/main/java/populationRegistry/App.java [21
+ <./common/use1.png> <./common/use2.png> <./common/use3.png>] (../../src/main/java/populationRegistry/App.java [22
 
-]) (../../src/main/java/populationRegistry/console/IController.java) (../../src/main/java/populationRegistry/console/ConsoleEngine.java [22] [23]) (../../src/main/java/populationRegistry/registryApplication/services/IPeselFacade.java) (../../src/main/java/populationRegistry/pesel/PeselFacade.java [24]) (../../src/main/java/populationRegistry/registryApplication/repositories/IRepository.java) (../../src/main/java/populationRegistry/registryApplication/repositories/RegistrationRepository.java [25]) (../../src/main/java/populationRegistry/registryApplication/repositories/RegistryApplicationRepository.java [26]) (../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java) (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [27] [28] [29] [30]) (../../src/main/java/populationRegistry/registryApplication/services/dto/FilterDataDTO.java) (../../src/main/java/populationRegistry/registryApplication/services/dto/RegistryApplicationDTO.java) (../../src/main/java/populationRegistry/registryApplication/models/RegistrationBase.java [31]) (../../src/main/java/populationRegistry/registryApplication/models/Registration.java) [32] (../../src/main/java/populationRegistry/registryApplication/models/RegistryApplication.java) (../../src/main/java/populationRegistry/registryApplication/models/RegistryAddressData.java [33]) (../../src/main/java/populationRegistry/registryApplication/models/RegistryPersonalData.java) [34]
+]) (../../src/main/java/populationRegistry/console/IController.java) (../../src/main/java/populationRegistry/console/ConsoleEngine.java [23] [24]) (../../src/main/java/populationRegistry/registryApplication/services/IPeselFacade.java) (../../src/main/java/populationRegistry/pesel/PeselFacade.java [25]) (../../src/main/java/populationRegistry/registryApplication/repositories/IRepository.java) (../../src/main/java/populationRegistry/registryApplication/repositories/RegistrationRepository.java [26]) (../../src/main/java/populationRegistry/registryApplication/repositories/RegistryApplicationRepository.java [27]) (../../src/main/java/populationRegistry/registryApplication/services/RegistrationService.java) (../../src/main/java/populationRegistry/registryApplication/services/RegistryApplicationService.java [28] [29] [30] [31]) (../../src/main/java/populationRegistry/registryApplication/services/dto/FilterDataDTO.java) (../../src/main/java/populationRegistry/registryApplication/services/dto/RegistryApplicationDTO.java) (../../src/main/java/populationRegistry/registryApplication/models/RegistrationBase.java [32]) (../../src/main/java/populationRegistry/registryApplication/models/Registration.java) [33] (../../src/main/java/populationRegistry/registryApplication/models/RegistryApplication.java) (../../src/main/java/populationRegistry/registryApplication/models/RegistryAddressData.java [34]) (../../src/main/java/populationRegistry/registryApplication/models/RegistryPersonalData.java) [35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 376.
  (out/Sprawozdanie_4.aux)
@@ -842,18 +848,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 376.
  ) 
 Here is how much of TeX's memory you used:
- 22138 strings out of 494445
- 405702 string characters out of 6174918
- 834043 words of memory out of 5000000
+ 22140 strings out of 494445
+ 405725 string characters out of 6174918
+ 834046 words of memory out of 5000000
  24616 multiletter control sequences out of 15000+600000
  15403 words of font info for 37 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  64i,8n,60p,470b,1214s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc2488.600pk> </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/damian_koper/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on out/Sprawozdanie_4.pdf (34 pages, 1298456 bytes).
+Output written on out/Sprawozdanie_4.pdf (35 pages, 1837213 bytes).
 PDF statistics:
- 1470 PDF objects out of 1728 (max. 8388607)
- 1081 compressed objects within 11 object streams
- 741 named destinations out of 1000 (max. 500000)
+ 1475 PDF objects out of 1728 (max. 8388607)
+ 1085 compressed objects within 11 object streams
+ 743 named destinations out of 1000 (max. 500000)
  285 words of extra memory for PDF output out of 10000 (max. 10000000)
 

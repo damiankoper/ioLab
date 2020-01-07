@@ -10,7 +10,6 @@ import populationRegistry.registryApplication.controllers.RegistryApplicationCon
 import populationRegistry.registryApplication.models.RegistryApplication;
 import populationRegistry.registryApplication.repositories.RegistrationRepository;
 import populationRegistry.registryApplication.repositories.RegistryApplicationRepository;
-import populationRegistry.registryApplication.services.IPeselFacade;
 import populationRegistry.registryApplication.services.RegistrationService;
 import populationRegistry.registryApplication.services.RegistryApplicationService;
 
