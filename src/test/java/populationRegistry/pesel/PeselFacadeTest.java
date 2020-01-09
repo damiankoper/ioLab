@@ -3,6 +3,7 @@ package populationRegistry.pesel;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import populationRegistry.registryApplication.services.dto.RegistryApplicationDTO;
@@ -12,11 +13,17 @@ import populationRegistry.registryApplication.services.dto.RegistryApplicationDT
  */
 public class PeselFacadeTest 
 {
+    PeselFacade facade;
+    
+    @Before
+    public void setUp(){
+      facade = new PeselFacade();
+    }
+
     @Test(expected = NullPointerException.class)
     public void shouldThrowExceptionWhenNotFilledWithValues()
     {
       //Given
-      PeselFacade facade = new PeselFacade();
       RegistryApplicationDTO dto = new RegistryApplicationDTO();
 
       //When
@@ -29,7 +36,6 @@ public class PeselFacadeTest
     public void shouldValidateRightChecksum()
     {
       //Given
-      PeselFacade facade = new PeselFacade();
       RegistryApplicationDTO dto = new RegistryApplicationDTO();
       dto.pesel = "72121532878";
 
@@ -45,7 +51,6 @@ public class PeselFacadeTest
     public void shouldValidateWrongChecksum()
     {
       //Given
-      PeselFacade facade = new PeselFacade();
       RegistryApplicationDTO dto = new RegistryApplicationDTO();
       dto.pesel = "72121232878";
 
