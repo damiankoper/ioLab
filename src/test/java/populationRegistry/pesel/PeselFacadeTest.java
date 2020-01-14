@@ -11,53 +11,22 @@ import populationRegistry.registryApplication.services.dto.RegistryApplicationDT
 /**
  * Unit test for simple App.
  */
-public class PeselFacadeTest 
-{
-    PeselFacade facade;
-    
-    @Before
-    public void setUp(){
-      facade = new PeselFacade();
-    }
+public class PeselFacadeTest {
+  PeselFacade facade;
 
-    @Test(expected = NullPointerException.class)
-    public void shouldThrowExceptionWhenNotFilledWithValues()
-    {
-      //Given
-      RegistryApplicationDTO dto = new RegistryApplicationDTO();
+  @Before
+  public void setUp() {
+    facade = new PeselFacade();
+  }
 
-      //When
-      facade.isValid(dto);
-      
-      //Then exception
-    }
+  @Test(expected = NullPointerException.class)
+  public void shouldThrowExceptionWhenNotFilledWithValues() {
+    // Given
+    RegistryApplicationDTO dto = new RegistryApplicationDTO();
 
-    @Test()
-    public void shouldValidateRightChecksum()
-    {
-      //Given
-      RegistryApplicationDTO dto = new RegistryApplicationDTO();
-      dto.pesel = "72121532878";
+    // When
+    facade.isValid(dto);
 
-      //When
-      boolean result = facade.isValid(dto);
-      
-      //Then
-      assertTrue(result);
-    }
-
-
-    @Test()
-    public void shouldValidateWrongChecksum()
-    {
-      //Given
-      RegistryApplicationDTO dto = new RegistryApplicationDTO();
-      dto.pesel = "72121232878";
-
-      //When
-      boolean result = facade.isValid(dto);
-      
-      //Then
-      assertFalse(result);
-    }
+    // Then exception
+  }
 }
