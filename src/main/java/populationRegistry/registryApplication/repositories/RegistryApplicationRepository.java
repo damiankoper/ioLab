@@ -15,7 +15,7 @@ public class RegistryApplicationRepository implements IRepository<RegistryApplic
 
     @Override
     public List<RegistryApplication> findAll() {
-        return container;
+        return new LinkedList<>(container);
     }
 
     @Override

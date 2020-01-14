@@ -3,5 +3,14 @@
   "editor.wordWrap": "on",
   "java.configuration.updateBuildConfiguration": "automatic",
   "spellright.language": ["English (American)", "English (British)", "Polish"],
-  "spellright.documentTypes": ["markdown", "latex", "plaintext"]
+  "spellright.documentTypes": ["markdown", "latex", "plaintext"],
+  "java.test.config": [
+    {
+      "vmargs": [
+        "-javaagent:/home/damian_koper/.m2/repository/org/jmockit/jmockit/1.49/jmockit-1.49.jar"
+      ],
+      "name": "config-a85b05"
+    }
+  ],
+  "java.test.defaultConfig": "config-a85b05"
 }

@@ -8,6 +8,7 @@ import java.util.Collection;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.*;
@@ -17,6 +18,7 @@ import populationRegistry.registryApplication.services.dto.RegistryApplicationDT
 /**
  * Unit test for simple App.
  */
+@Category(Pesel.class)
 @RunWith(Parameterized.class)
 public class PeselFacadeWrongTest {
 
