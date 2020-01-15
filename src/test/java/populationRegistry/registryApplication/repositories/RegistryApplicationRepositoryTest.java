@@ -7,6 +7,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
+import mockit.Mocked;
+import mockit.Tested;
 import populationRegistry.registryApplication.models.RegistryApplication;
 import populationRegistry.registryApplication.repositories.RegistryApplicationRepository;
 
@@ -15,13 +17,14 @@ import populationRegistry.registryApplication.repositories.RegistryApplicationRe
  */
 @Category(Repositories.class)
 public class RegistryApplicationRepositoryTest {
+  @Tested
   RegistryApplicationRepository repository;
+  @Mocked
   RegistryApplication application;
 
   @Before
   public void setUp() {
     repository = new RegistryApplicationRepository();
-    application = new RegistryApplication();
   }
 
   @Test
@@ -58,4 +61,17 @@ public class RegistryApplicationRepositoryTest {
     // Then
     assertEquals(application.id, app.id);
   }
+
+  @Test
+  public void notValidIdApplication() {
+    // Given
+    repository.save(application);
+
+    // When
+    var app = repository.findById(1);
+
+    // Then
+    assertNotEquals(34, app.id);
+  }
+
 }
