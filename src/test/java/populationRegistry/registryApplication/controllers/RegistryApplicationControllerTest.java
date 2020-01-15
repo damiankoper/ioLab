@@ -1,7 +1,7 @@
 package populationRegistry.registryApplication.controllers;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertSame;
+//import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertSame;
 
 import java.io.ByteArrayInputStream;
 import java.util.LinkedList;
@@ -10,19 +10,19 @@ import java.util.Scanner;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.junit.runner.RunWith;
+//import org.junit.runner.RunWith;
 
 import mockit.Expectations;
 import mockit.FullVerifications;
-import mockit.Injectable;
+//import mockit.Injectable;
 import mockit.Mocked;
 import mockit.Tested;
 import populationRegistry.App;
 import populationRegistry.registryApplication.models.RegistryApplication;
-import populationRegistry.registryApplication.repositories.RegistryApplicationRepository;
+//import populationRegistry.registryApplication.repositories.RegistryApplicationRepository;
 import populationRegistry.registryApplication.services.RegistryApplicationService;
 import populationRegistry.registryApplication.services.dto.FilterDataDTO;
-import populationRegistry.registryApplication.views.RegistryApplicationIndexView;
+//import populationRegistry.registryApplication.views.RegistryApplicationIndexView;
 import populationRegistry.registryApplication.views.dto.TableDTO;
 
 /**

@@ -21,10 +21,13 @@ public class RegistryApplicationRepositoryTest {
   RegistryApplicationRepository repository;
   @Mocked
   RegistryApplication application;
+  RegistryApplication application2;
 
   @Before
   public void setUp() {
     repository = new RegistryApplicationRepository();
+    application = new RegistryApplication();
+    application2 = new RegistryApplication();
   }
 
   @Test
@@ -72,6 +75,20 @@ public class RegistryApplicationRepositoryTest {
 
     // Then
     assertNotEquals(34, app.id);
+  }
+
+  @Test
+  public void notMupltipleApplications() {
+    // Given
+    repository.save(application);
+    repository.save(application);
+    repository.save(application2);
+
+    // When
+    var list = repository.findAll();
+
+    // Then
+    assertEquals(2,list.size());
   }
 
 }

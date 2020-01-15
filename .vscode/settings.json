@@ -7,7 +7,7 @@
   "java.test.config": [
     {
       "vmargs": [
-        "-javaagent:C:/Users/kukik/.m2/repository/jmockit/jmockit/1.49/jmockit-1.49.jar"
+        "-javaagent:C:/Users/kukik/.m2/repository/org/jmockit/jmockit/1.49/jmockit-1.49.jar"
       ],
       "name": "config-a85b05"
     }

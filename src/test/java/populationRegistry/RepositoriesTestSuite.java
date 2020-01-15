@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite.SuiteClasses;
 
 import populationRegistry.registryApplication.repositories.Repositories;
-import populationRegistry.registryApplication.services.Services;
+//import populationRegistry.registryApplication.services.Services;
 
 /**
  * AppTestSuite
