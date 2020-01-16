@@ -1,0 +1,17 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path target/test-classes
+!path target/classes
+
+
+|fitnesse.fixtures.PeselFixture|
+|pesel|isValid?|
+|12345678901|false|
+|93040776637|true|
+|77010549726|true|
+|04212495492|true|
+|53051461373|true|
+|02292695889|true|
+|55103165499|true|
