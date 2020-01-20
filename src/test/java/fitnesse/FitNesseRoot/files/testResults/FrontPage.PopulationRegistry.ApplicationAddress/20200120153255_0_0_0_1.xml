@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200108</FitNesseVersion>
+  <rootPath>FrontPage.PopulationRegistry.ApplicationAddress</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>7</exceptions>
+    </counts>
+    <date>2020-01-20T15:32:55+01:00</date>
+    <runTimeInMillis>290</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/test-classes&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: target/classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;fitnesse.fixtures.RegistryApplicationRepositoryFixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;country&lt;/td&gt;
+		&lt;td&gt;isTheSame?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Poland&lt;/td&gt;
+		&lt;td&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246) [rt.jar]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:413) [rt.jar]
+	at populationRegistry.registryApplication.services.RegistryApplicationService.update(RegistryApplicationService.java:78) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/classes/]
+	at fitnesse.fixtures.RegistryApplicationRepositoryFixture.isTheSame(RegistryApplicationRepositoryFixture.java:22) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/test-classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200108]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Greece&lt;/td&gt;
+		&lt;td&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246) [rt.jar]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:413) [rt.jar]
+	at populationRegistry.registryApplication.services.RegistryApplicationService.update(RegistryApplicationService.java:78) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/classes/]
+	at fitnesse.fixtures.RegistryApplicationRepositoryFixture.isTheSame(RegistryApplicationRepositoryFixture.java:22) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/test-classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200108]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Norway&lt;/td&gt;
+		&lt;td&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246) [rt.jar]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:413) [rt.jar]
+	at populationRegistry.registryApplication.services.RegistryApplicationService.update(RegistryApplicationService.java:78) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/classes/]
+	at fitnesse.fixtures.RegistryApplicationRepositoryFixture.isTheSame(RegistryApplicationRepositoryFixture.java:22) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/test-classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200108]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Portugal&lt;/td&gt;
+		&lt;td&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246) [rt.jar]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:413) [rt.jar]
+	at populationRegistry.registryApplication.services.RegistryApplicationService.update(RegistryApplicationService.java:78) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/classes/]
+	at fitnesse.fixtures.RegistryApplicationRepositoryFixture.isTheSame(RegistryApplicationRepositoryFixture.java:22) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/test-classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200108]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Germany&lt;/td&gt;
+		&lt;td&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246) [rt.jar]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:413) [rt.jar]
+	at populationRegistry.registryApplication.services.RegistryApplicationService.update(RegistryApplicationService.java:78) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/classes/]
+	at fitnesse.fixtures.RegistryApplicationRepositoryFixture.isTheSame(RegistryApplicationRepositoryFixture.java:22) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/test-classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200108]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Austria&lt;/td&gt;
+		&lt;td&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246) [rt.jar]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:413) [rt.jar]
+	at populationRegistry.registryApplication.services.RegistryApplicationService.update(RegistryApplicationService.java:78) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/classes/]
+	at fitnesse.fixtures.RegistryApplicationRepositoryFixture.isTheSame(RegistryApplicationRepositoryFixture.java:22) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/test-classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200108]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;France&lt;/td&gt;
+		&lt;td&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;true&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246) [rt.jar]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:428) [rt.jar]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:413) [rt.jar]
+	at populationRegistry.registryApplication.services.RegistryApplicationService.update(RegistryApplicationService.java:78) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/classes/]
+	at fitnesse.fixtures.RegistryApplicationRepositoryFixture.isTheSame(RegistryApplicationRepositoryFixture.java:22) [file:/C:/Users/kukik/Desktop/Studia/semestrV/ioLab/target/test-classes/]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [n/a]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [n/a]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [n/a]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [rt.jar]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.methodInvoke(SimpleInteraction.java:322) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.callMethod(SimpleInteraction.java:307) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.invokeMethod(SimpleInteraction.java:290) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.findAndInvoke(SimpleInteraction.java:217) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:112) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.CallAndOptionalAssignInstruction.executeInternal(CallAndOptionalAssignInstruction.java:30) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20200108]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20200108]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ApplicationAddress</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='fitnesse.fixtures.RegistryApplicationRepositoryFixture', args=[]}</instruction>
+        <slimResult>pass(fitnesse.fixtures.RegistryApplicationRepositoryFixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>fitnesse.fixtures.RegistryApplicationRepositoryFixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setCountry', args=[Poland]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='isTheSame', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_6</instructionId>
+          <type>ReturnedValueExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_8', instruction='call', instanceName='decisionTable_0', methodName='setCountry', args=[Greece]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='isTheSame', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_10</instructionId>
+          <type>ReturnedValueExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_12', instruction='call', instanceName='decisionTable_0', methodName='setCountry', args=[Norway]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_12</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_14', instruction='call', instanceName='decisionTable_0', methodName='isTheSame', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_14</instructionId>
+          <type>ReturnedValueExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_16', instruction='call', instanceName='decisionTable_0', methodName='setCountry', args=[Portugal]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_16</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_18', instruction='call', instanceName='decisionTable_0', methodName='isTheSame', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_18</instructionId>
+          <type>ReturnedValueExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_20', instruction='call', instanceName='decisionTable_0', methodName='setCountry', args=[Germany]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_20</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_22', instruction='call', instanceName='decisionTable_0', methodName='isTheSame', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_22</instructionId>
+          <type>ReturnedValueExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_24', instruction='call', instanceName='decisionTable_0', methodName='setCountry', args=[Austria]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_24</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_26', instruction='call', instanceName='decisionTable_0', methodName='isTheSame', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_26</instructionId>
+          <type>ReturnedValueExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_28', instruction='call', instanceName='decisionTable_0', methodName='setCountry', args=[France]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_28</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_30', instruction='call', instanceName='decisionTable_0', methodName='isTheSame', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_30</instructionId>
+          <type>ReturnedValueExpectation</type>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\open jdk 11\bin\java" -cp C:\Users\kukik\Desktop\Studia\semestrV\ioLab\src\test\java\fitnesse\fitnesse-standalone.jar;target/test-classes;target/classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>853</totalRunTimeInMillis>
+</testResults>
+

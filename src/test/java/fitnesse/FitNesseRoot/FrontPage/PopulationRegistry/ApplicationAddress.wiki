@@ -1,0 +1,17 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path target/test-classes
+!path target/classes
+
+
+|fitnesse.fixtures.RegistryApplicationRepositoryFixture|
+|country|isTheSame?|
+|Poland|true|
+|Greece|true|
+|Norway|true|
+|Portugal|true|
+|Germany|true|
+|Austria|true|
+|France|true|

@@ -1,3 +1,6 @@
+|FrontPage.PopulationRegistry.NewApplications||15:58:42 Pn, sty 20, 2020|
+|FrontPage.PopulationRegistry.ApplicationAddress||15:32:01 Pn, sty 20, 2020|
+|FrontPage.PopulationRegistry.Pesel.ApplicationAddress||15:25:43 Pn, sty 20, 2020|
 |FrontPage.PopulationRegistry||19:17:51 Thu, Jan 16, 2020|
 |FrontPage.PopulationRegistry.Pesel||19:17:26 Thu, Jan 16, 2020|
 |PopulationRegistry||18:21:02 Thu, Jan 16, 2020|

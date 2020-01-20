@@ -18,7 +18,7 @@
     {
       "label": "Run FirtNesse",
       "type": "shell",
-      "command": "java -jar ${workspaceRoot}/src/test/java/fitnesse/fitnesse-standalone.jar -p 8123 -f ${workspaceRoot}/.settings/plugins.properties -d ${workspaceRoot}/src/test/java/fitnesse"
+      "command": "java -jar '${workspaceRoot}/src/test/java/fitnesse/fitnesse-standalone.jar' -p 8123 -f '${workspaceRoot}/.settings/plugins.properties' -d '${workspaceRoot}/src/test/java/fitnesse'"
     }
   ]
 }
