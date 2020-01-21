@@ -1,0 +1,21 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+!path target/test-classes
+!path target/classes
+|fitnesse.fixtures.FilterDataFixture|
+|input |isFiltering? |names?|pesels?|
+|n     |false        |[]    |[]     |
+|!-y
+damian
+łukasz
+
+12345678901
+
+-! | true | [damian, łukasz, ] | [12345678901, ] |
+|!-y
+damian
+
+
+-! | true | [damian, ] | [] |

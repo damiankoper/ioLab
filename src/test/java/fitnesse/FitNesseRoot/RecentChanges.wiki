@@ -1,3 +1,4 @@
+|FrontPage.PopulationRegistry.FilterData||09:16:20 Tue, Jan 21, 2020|
 |FrontPage.PopulationRegistry.NewApplications||15:58:42 Pn, sty 20, 2020|
 |FrontPage.PopulationRegistry.ApplicationAddress||15:32:01 Pn, sty 20, 2020|
 |FrontPage.PopulationRegistry.Pesel.ApplicationAddress||15:25:43 Pn, sty 20, 2020|

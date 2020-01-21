@@ -17,6 +17,7 @@ public class RegistryApplicationIndexView {
       input = App.scanner.nextLine();
     }
     if (input.equalsIgnoreCase("y")) {
+      dto.filter = true;
       System.out.print("Podaj imiona lub nazwiska (pusta linia aby zakończyc): ");
       while (!input.isEmpty()) {
         input = App.scanner.nextLine();
