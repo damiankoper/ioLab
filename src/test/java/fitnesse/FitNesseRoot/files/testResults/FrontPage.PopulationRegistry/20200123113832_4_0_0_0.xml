@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20200108</FitNesseVersion>
+  <rootPath>FrontPage.PopulationRegistry</rootPath>
+  <pageHistoryReference>
+    <name>FrontPage.PopulationRegistry.ApplicationAddress</name>
+    <date>2020-01-23T11:38:32+01:00</date>
+    <pageHistoryLink>FrontPage.PopulationRegistry.ApplicationAddress?pageHistory&amp;resultDate=20200123113832</pageHistoryLink>
+    <counts>
+      <right>16</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>138</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.PopulationRegistry.FilterData</name>
+    <date>2020-01-23T11:38:32+01:00</date>
+    <pageHistoryLink>FrontPage.PopulationRegistry.FilterData?pageHistory&amp;resultDate=20200123113832</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>19</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.PopulationRegistry.NewApplications</name>
+    <date>2020-01-23T11:38:32+01:00</date>
+    <pageHistoryLink>FrontPage.PopulationRegistry.NewApplications?pageHistory&amp;resultDate=20200123113832</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>26</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FrontPage.PopulationRegistry.Pesel</name>
+    <date>2020-01-23T11:38:33+01:00</date>
+    <pageHistoryLink>FrontPage.PopulationRegistry.Pesel?pageHistory&amp;resultDate=20200123113833</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>21</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp /home/damian_koper/Documents/GitHub/ioLab/src/test/java/fitnesse/fitnesse-standalone.jar:target/test-classes:target/classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>Wlaczyc filtrowanie? [y|n]: 
+Wlaczyc filtrowanie? [y|n]: 
+Wlaczyc filtrowanie? [y|n]: 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Wlaczyc filtrowanie? [y|n]: 
+Wlaczyc filtrowanie? [y|n]: 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+Wlaczyc filtrowanie? [y|n]: 
+Podaj imiona lub nazwiska (pusta linia aby zakończyc): 
+Podaj numery PESEL (pusta linia aby zakończyc): 
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>4</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>420</totalRunTimeInMillis>
+</suiteResults>
+

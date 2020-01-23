@@ -5,6 +5,7 @@ Test
 !path target/test-classes
 !path target/classes
 
+!include FilterData
 
 |fitnesse.fixtures.RegistryApplicationRepositoryFixture|
 |country|isTheSame?|

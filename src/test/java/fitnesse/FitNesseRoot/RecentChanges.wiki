@@ -1,6 +1,6 @@
-|FrontPage.PopulationRegistry.FilterData||09:16:20 Tue, Jan 21, 2020|
-|FrontPage.PopulationRegistry.NewApplications||15:58:42 Pn, sty 20, 2020|
-|FrontPage.PopulationRegistry.ApplicationAddress||15:32:01 Pn, sty 20, 2020|
+|FrontPage.PopulationRegistry.NewApplications||11:37:42 Thu, Jan 23, 2020|
+|FrontPage.PopulationRegistry.FilterData||11:36:47 Thu, Jan 23, 2020|
+|FrontPage.PopulationRegistry.ApplicationAddress||11:33:21 Thu, Jan 23, 2020|
 |FrontPage.PopulationRegistry.Pesel.ApplicationAddress||15:25:43 Pn, sty 20, 2020|
 |FrontPage.PopulationRegistry||19:17:51 Thu, Jan 16, 2020|
 |FrontPage.PopulationRegistry.Pesel||19:17:26 Thu, Jan 16, 2020|
